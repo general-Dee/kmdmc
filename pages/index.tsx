@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Banner from '../components/Banner'
 import Header from '../components/Header'
 import Row from '../components/Row'
-import { bannerImgs } from '../data/bannerImages'
+// import { bannerImgs } from '../data/bannerImages'
 
 const Home = () => {
 // console.log(bannerImgs)
@@ -18,14 +18,14 @@ const Home = () => {
 
       <Header />
       <main className='pl-4 pb-24 lg:space-y-24 lg:pl-16'>
-           <Banner bannerImages={ bannerImgs }/>
-           <section className='static'>
+           {/* <Banner bannerImages={ bannerImgs }/> */}
+           {/* <section className='static'>
              <Row />
              <Row />
              <Row />
              <Row />
              <Row />
-           </section>
+           </section> */}
 
       </main>
 
