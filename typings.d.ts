@@ -1,9 +1,9 @@
 
-interface Genre {
+export interface Genre {
     id: number
     name: string
   }
 
-interface Props {
+export interface Props {
     bannerImages: Array<any>;
   }
