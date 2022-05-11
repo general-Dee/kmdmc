@@ -30,8 +30,8 @@ const Home = ( {bannerImages}: Props) => {
            <Banner bannerImages={ bannerImgs }/>
            {/* Content seccion */}
            <Content />
-           {/* Features
-           <Features /> */}
+           {/* Features */}
+           <Features />
 
 
       </main>
