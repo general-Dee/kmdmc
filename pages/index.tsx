@@ -5,6 +5,7 @@ import Banner from '../components/Banner'
 import Contact_sec from '../components/Contact_sec'
 import Content from '../components/Content'
 import Features from '../components/Features'
+import Footer from '../components/Footer'
 // import Banner2 from '../components/Banner2'
 import Header from '../components/Header'
 // import Row from '../components/Row'
@@ -35,9 +36,9 @@ const Home = ( {bannerImages}: Props) => {
            <Features />
            {/* Contact section */}
            <Contact_sec />
-
-
       </main>
+      {/* Footer */}
+      <Footer />
 
     </div>
   )
