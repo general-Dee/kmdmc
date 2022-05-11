@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../components/Banner'
+import Contact_sec from '../components/Contact_sec'
 import Content from '../components/Content'
 import Features from '../components/Features'
 // import Banner2 from '../components/Banner2'
@@ -32,6 +33,8 @@ const Home = ( {bannerImages}: Props) => {
            <Content />
            {/* Features */}
            <Features />
+           {/* Contact section */}
+           <Contact_sec />
 
 
       </main>
