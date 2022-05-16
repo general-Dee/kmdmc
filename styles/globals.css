@@ -6,7 +6,7 @@
 @layer base{
     body{
         /* @apply bg-[#1f1f1f] ; */
-        @apply bg-white ;
+        @apply bg-white overflow-x-hidden;
     }
 
     header{
@@ -24,12 +24,16 @@
         @apply h-4 w-4 md:h-5 md:w-5 lg:h-6 lg:w-6 cursor-pointer text-white hover:text-gray-400 transition duration-[.4s]
     }
 
+    .scrolledHeader {
+        @apply bg-gray-900 
+    }
+
     .bannerBtn {
-        @apply absolute bg-white text-black rounded-lg left-4 lg:left-10 top-[40vh] md:top-[60vh] lg:top-[70vh] hover:opacity-80 transition duration-[.3s]  
+        @apply flex items-center justify-center bg-white text-black rounded-lg gap-x-2 px-7 py-1.5 mt-6 text-sm font-semibold hover:opacity-80 transition duration-[.3s]  
     }
 
     .footerSocialLink {
-        @apply h-4 w-4 md:h-5 md:w-5 lg:h-6 lg:w-6 cursor-pointer text-gray-800 hover:text-gray-400 transition duration-[.4s]
+        @apply h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 cursor-pointer text-gray-800 hover:text-gray-400 transition duration-[.4s]
     }
 
     .row {

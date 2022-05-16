@@ -31,9 +31,9 @@ function Header() {
 
   
   return (
-    <header className={`${isScrolled && "bg-gray-600"}`}>
-        <div className="flex space-x-8">
-            <div className="bg-[#f1f1f1] px-1 rounded-2xl hover:bg-slate-400 transition duration-[.4s] sm:p-0">
+    <header className={`${isScrolled && "scrolledHeader"}`}>
+        <div className="flex space-x-12">
+            <div className="bg-white px-1 rounded-2xl hover:bg-slate-400 transition duration-[.4s] sm:p-0">
               <Image src="/logo.png" width={70} height={80} className="cursor-pointer sm:w-5 sm:h-5"/>
             </div>
             <ul className="hidden space-x-5 md:flex item-center">
