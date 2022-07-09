@@ -1,31 +1,34 @@
-// import type { NextPage } from 'next'
+// import { async } from "@firebase/util"
+// import { getSession } from "next-auth/client"
 import Head from 'next/head'
-import Image from 'next/image'
 import Banner from '../components/Banner'
 import Contact_sec from '../components/Contact_sec'
 import Content from '../components/Content'
 import Features from '../components/Features'
 import Footer from '../components/Footer'
-// import Banner2 from '../components/Banner2'
 import Header from '../components/Header'
-// import Row from '../components/Row'
 import { bannerImgs } from '../data/bannerImages'
-// import { Props } from '../typings'
+import { motion } from 'framer-motion'
+import { homeContainer } from '../components/Animations'
+
 
 interface Props{
   bannerImages: Array<any>
 }
 
 const Home = ( {bannerImages}: Props) => {
-// console.log(bannerImgs)
   return (
-    // bg-gradient-to-b from-white to-slate-900/10
-    <div className="h-screen bg-gradient-to-b from-white to-gray-600 lg:h-[140vh]">
+    <motion.div className="h-screen bg-gradient-to-b lg:h-[140vh]" 
+    variants={homeContainer} 
+    initial='hidden' 
+    animate='show' 
+    exit='hide'>
       <Head>
         <title>Home &nbsp;|&nbsp; KMDMC</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/logo.png" />
       </Head>
-
+      
+      <Header />
       <main className='relative pl-4 lg:space-y-24 lg:pl-16'>
            <Banner bannerImages={ bannerImgs }/>
            <section className='absolute left-0 space-y-16'>
@@ -39,8 +42,19 @@ const Home = ( {bannerImages}: Props) => {
              <Footer />
            </section>
       </main>
-    </div>
+    </motion.div>
   )
 }
 
 export default Home
+
+// export async function getServerSideProps(context) {
+//   // get the user
+//   const session = await getSession(context);
+
+//   return {
+//     props: {
+//       session
+//     }
+//   }
+// }

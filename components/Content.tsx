@@ -3,7 +3,7 @@ import React from 'react'
 function Content() {
   return (
         <section className= "text-gray-600 body-font bg-white w-screen ">
-            <div className="container left-0 top-[-20vh] z-10 px-5 py-24 pb-10 mx-auto">
+            <div className="container left-0 z-10 px-5 pb-10 mx-auto">
                 <div className="flex flex-wrap w-full mb-20">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-500">Projects</h1>

@@ -6,6 +6,8 @@ import { useEffect, useState } from "react"
 import { FaFacebook } from  "react-icons/fa"
 import { FaInstagram } from  "react-icons/fa"
 import { FaTwitter } from  "react-icons/fa"
+import { motion } from 'framer-motion'
+import { sm, logo } from '../components/Animations'
 
 
 
@@ -33,19 +35,21 @@ function Header() {
   return (
     <header className={`${isScrolled && "scrolledHeader"}`}>
         <div className="flex space-x-12">
-            <div className="bg-white px-1 rounded-2xl hover:bg-slate-400 transition duration-[.4s] sm:p-0">
-              <Image src="/logo.png" width={70} height={80} className="cursor-pointer sm:w-5 sm:h-5"/>
-            </div>
+            <motion.div variants={logo} className="bg-white px-1 rounded-2xl hover:bg-slate-400 transition duration-[.4s] sm:p-0">
+              <Link href={"/"}>
+                <Image src="/logo.png" width={70} height={80} className="cursor-pointer sm:w-5 sm:h-5"/>
+              </Link>
+            </motion.div>
             <ul className="hidden space-x-5 md:flex item-center">
-                <li className="headerLink">Home</li>
-                <li className="headerLink">About</li>
-                <li className="headerLink">Contact</li>
-                <li className="headerLink">News</li>
-                <li className="headerLink">Gallery</li>
+                <Link href={'/'}><li className="headerLink">Home</li></Link>
+                <Link href={'/about'}><li className="headerLink">About</li></Link>
+                <Link href={'/contact'}><li className="headerLink">Contact</li></Link>
+                <Link href={'/news'}><li className="headerLink">News</li></Link>
+                <Link href={'/gallery'}><li className="headerLink">Gallery</li></Link>
             </ul>
         </div>    
 
-        <div className="flex item-center space-x-4">
+        <motion.div variants={ sm } className="flex item-center space-x-4">
 
           <FaTwitter className= "socialLink" />
           
@@ -53,7 +57,7 @@ function Header() {
 
           <FaFacebook className="socialLink" />
           
-        </div>    
+        </motion.div>    
     </header>
   )
 }

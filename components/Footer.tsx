@@ -3,10 +3,11 @@ import { FaFacebook } from  "react-icons/fa"
 import { FaInstagram } from  "react-icons/fa"
 import { FaTwitter } from  "react-icons/fa"
 import Image from "next/image"
+import Link from 'next/link'
 
 function Footer() {
   return (
-        <footer className="text-gray-600 body-font">
+        <footer className="relative mt-screen text-gray-600 body-font">
             <div className="container px-5 py-10 sm:pt-1 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -92,6 +93,9 @@ function Footer() {
                     <a href="https://twitter.com/son_of_leke" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Dre</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <Link href={"/dashboard"}>
+                        <h2 className='admin_link'>Admin? &nbsp;&nbsp;</h2>
+                    </Link>
                     <div className="flex item-center space-x-4">
                         <FaTwitter className= "footerSocialLink" />
                         <FaInstagram className= "footerSocialLink" />

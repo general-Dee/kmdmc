@@ -19,7 +19,7 @@ function Features() {
                         </svg>
                     </div>
                 <div className="flex-grow">
-                    <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                    <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Simplicity</h2>
                     <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                     <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@ function Features() {
                 </svg>
                 </div>
                 <div className="flex-grow">
-                    <h2 className="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                    <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Loyalty</h2>
                     <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                     <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@ function Features() {
                 </svg>
                 </div>
                 <div className="flex-grow">
-                    <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+                    <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Trust</h2>
                     <p className="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                     <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More
                         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
