@@ -1,10 +1,11 @@
+import { XIcon } from '@heroicons/react/solid'
 import React from 'react'
 
 function MemoForm() {
   return (
     <>
           <button className="modalButton absolute right-5 top-5 !z-40 h-9 w-9 border-none bg-[#181818] hover:bg-[#181818]">
-            <XIcon className="h-6 w-6 text-white" onClick={handleClose}/>
+            <XIcon className="h-6 w-6 text-white"/>
           </button>
           <div className="flex items-center justify-center h-full">
             <div className="bg-white/50 p-20 w-[70%]">
@@ -25,9 +26,9 @@ function MemoForm() {
                 <div>
                   <input type="text" className="px-6 py-2 mt-5 w-full rounded-lg focus:outline-none shadow-sm" placeholder="Subject"/>
                 </div>
-                <div>
+                {/* <div>
                   <textarea name="message" id="message" cols="30" rows="10" className="p-2 w-full rounded-lg focus:outline-none shadow-sm mt-5" placeholder="Enter memo body"></textarea>
-                </div>
+                </div> */}
                 
               </form>
             </div>
