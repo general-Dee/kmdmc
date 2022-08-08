@@ -50,13 +50,19 @@ function Footer() {
                         <a className="text-gray-600">&bull;  Neighborhood Centre within Murtala Square</a>
                     </li>
                     <li>
-                        <a className="text-gray-600">&bull;  Kaduna Galaxy Mall</a>
+                        <Link href={"/gallaxymall"}>
+                            <a className="text-gray-600">&bull;  Kaduna Galaxy Mall</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="text-gray-600">&bull;  Kasuwan Magani</a>
+                        <Link href={"/kasuwanmagani"}>
+                            <a className="text-gray-600">&bull;  Kasuwan Magani</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="text-gray-600">&bull;  Markets and Trailer Park at Olam</a>
+                        <Link href={"/olarm"}>
+                            <a className="text-gray-600">&bull;  Markets and Trailer Park at Olam</a>
+                        </Link>
                     </li>
                     </nav>
                 </div>
@@ -85,10 +91,14 @@ function Footer() {
                     <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">News</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">&bull; Gov. El-Rufai - We Will Boost Economic Activities by Providing Modern Markets & Shopping Centres</a>
+                        <Link href={"/news"}>
+                            <a className="text-gray-600 hover:text-gray-800">&bull; Gov. El-Rufai - We Will Boost Economic Activities by Providing Modern Markets & Shopping Centres</a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">&bull; Invitation for Expression of Interest (EOI) for the Concession, Operation and Management of the Kaduna State Enterprise Zones (Trailer Parks)</a>
+                        <Link href={"/news"}>
+                            <a className="text-gray-600 hover:text-gray-800">&bull; Invitation for Expression of Interest (EOI) for the Concession, Operation and Management of the Kaduna State Enterprise Zones (Trailer Parks)</a>
+                        </Link>
                     </li>
                     </nav>
                 </div>
