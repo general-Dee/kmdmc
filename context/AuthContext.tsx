@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut} from 'firebase/auth'
+import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut, User} from 'firebase/auth'
 import { auth } from "../firebase";
 import { isError } from "util";
 import { LogoutIcon } from "@heroicons/react/solid";

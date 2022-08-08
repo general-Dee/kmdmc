@@ -1,6 +1,7 @@
 import { addDoc, collection, onSnapshot } from 'firebase/firestore'
 import React, { FormEventHandler, useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
+import { toast } from 'react-toastify'
 import { db } from '../firebase'
 
 interface FormData {
@@ -18,7 +19,8 @@ function Contact_sec() {
 
     const clearForm = () => {
         reset()
-        console.log("Document subbmitted")
+        // console.log("Document subbmitted")
+        toast.success("Your message was successfully submitted")
     }
 
     const onFormSubmit = async (data: FormData) => {
@@ -49,7 +51,7 @@ function Contact_sec() {
                     </div>
                     <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                    <a className="text-indigo-500 leading-relaxed">info@kadunamarkets.com</a>
+                    <a className="text-indigo-500 leading-relaxed">kaduna.markets@kdsg.gov.ng</a>
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                     <p className="leading-relaxed">+234 903 787 3878</p>
                     </div>
@@ -57,7 +59,7 @@ function Contact_sec() {
             </div>
                 <form id='contact_form' className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0" onSubmit={handleSubmit(onFormSubmit)}>
                     <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-                    <p className="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+                    <p className="leading-relaxed mb-5 text-gray-600">Do well to leave us a message and we will be sure to process it and get back</p>
                     <div className="relative mb-4">
                         <label className="leading-7 text-sm text-gray-600">Name
                             <input type="text" {...register("name", {required: true})} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
@@ -115,7 +117,7 @@ function Contact_sec() {
                         </label>
                         
                     </div>
-                    <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                    <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
                     <p className="text-xs text-gray-500 mt-3">Contact KMDMC, we are sure to give you the answer you require and more</p>
                 </form>
         </div>

@@ -4,6 +4,7 @@ import Image from "next/image"
 import { InformationCircleIcon } from '@heroicons/react/solid'
 import { motion } from 'framer-motion'
 import { bannerText } from '../components/Animations'
+import Link from 'next/link'
 
 
 interface Props {
@@ -39,9 +40,11 @@ function Banner({bannerImages}: Props) {
         <p className='text-shadow-md max-w-xs text-white text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>  
           {`${bannerImg?.overview}`}
         </p>
-        <button className='bannerBtn '> <InformationCircleIcon className='h-5 w-5 md:h-8 md:w-8'/>
-          More Info
-        </button>
+        <Link href={"/projects"}>
+          <button className='bannerBtn '> <InformationCircleIcon className='h-5 w-5 md:h-8 md:w-8'/>
+            More Info
+          </button>
+        </Link>
       </motion.div>
  
     </div>

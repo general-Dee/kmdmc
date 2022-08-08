@@ -14,77 +14,104 @@ function Footer() {
                     <Image src="/logo.png" width={70} height={80} className="cursor-pointer sm:w-5 sm:h-5"/>
                     <span className="ml-3 text-sm">Kaduna Markets Development and Management Company</span>
                 </a>
-                <p className="mt-2 text-sm text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit.</p>
+                <p className="mt-2 text-sm text-gray-500">KMDMC is currently managing over twenty (20) projects across the state, these projects cut across Commercial, Recreation and Hospitality.</p>
                 </div>
                 <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Scope of Work</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                        <a className="text-gray-600 hover:text-gray-800">Distribution of Markets</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                        <a className="text-gray-600 hover:text-gray-800">Demarcation of Earmarked Locations</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                        <a className="text-gray-600 hover:text-gray-800">Security</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        <a className="text-gray-600 hover:text-gray-800">Health and Safety</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600 hover:text-gray-800">Media and Publicity</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600 hover:text-gray-800">Coordination</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600 hover:text-gray-800">Budget</a>
+                    </li>
+                    </nav>
+                </div> */}
+                <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Completed Projects</h2>
+                    <nav className="list-none mb-10">
+                    <li>
+                        <a className="text-gray-600">&bull;  Neighborhood Centre within Murtala Square</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600">&bull;  Kaduna Galaxy Mall</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600">&bull;  Kasuwan Magani</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600">&bull;  Markets and Trailer Park at Olam</a>
                     </li>
                     </nav>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">On Going Projects</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                        <a className="text-gray-600 ">&bull;  Millennium City Market</a>
+                    </li>
+                    
+                    <li>
+                        <a className="text-gray-600 ">&bull;  Malali Neighborhood Centre</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                        <a className="text-gray-600 ">&bull;  Kawo Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                        <a className="text-gray-600 ">&bull;  Bacci Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        <a className="text-gray-600 ">&bull;  Neighborhood Centre Zaria</a>
                     </li>
                     </nav>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">News</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                        <a className="text-gray-600 hover:text-gray-800">&bull; Gov. El-Rufai - We Will Boost Economic Activities by Providing Modern Markets & Shopping Centres</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                    </li>
-                    <li>
-                        <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                    </li>
-                    <li>
-                        <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        <a className="text-gray-600 hover:text-gray-800">&bull; Invitation for Expression of Interest (EOI) for the Concession, Operation and Management of the Kaduna State Enterprise Zones (Trailer Parks)</a>
                     </li>
                     </nav>
                 </div>
-                <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Sale of shop</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                        <a className="text-gray-600 ">&bull; New GSM Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                        <a className="text-gray-600 ">&bull; Unguan Rimi Matket</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                        <a className="text-gray-600 ">&bull; Kabala Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        <a className="text-gray-600 ">&bull; Tudun Wada Market</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-600 ">&bull; Sheikh Abubakar Gumi Market</a>
                     </li>
                     </nav>
-                </div>
+                </div> */}
                 </div>
             </div>
             <div className="bg-gray-100">
@@ -97,9 +124,15 @@ function Footer() {
                         <h2 className='admin_link'>Admin? &nbsp;&nbsp;</h2>
                     </Link>
                     <div className="flex item-center space-x-4">
-                        <FaTwitter className= "footerSocialLink" />
-                        <FaInstagram className= "footerSocialLink" />
-                        <FaFacebook className="footerSocialLink" />
+                        <Link href={"https://twitter.com/KadunaMarkets"}>
+                            <FaTwitter className= "footerSocialLink" />
+                        </Link>
+                        <Link href={"https://www.instagram.com/kadunamarkets/?hl=en"}>
+                            <FaInstagram className= "footerSocialLink" />
+                        </Link>
+                        <Link href={"https://web.facebook.com/kmdmc"}>
+                            <FaFacebook className="footerSocialLink" />
+                        </Link>
                     </div> 
                 </span>
                 </div>

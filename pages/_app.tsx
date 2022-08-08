@@ -4,8 +4,9 @@ import Router, { useRouter } from 'next/router'
 import { AnimatePresence } from 'framer-motion'
 // import { useAuthState } from 'react-firebase-hooks/auth'
 import { auth } from "../firebase"
-import { RecoilRoot } from 'recoil';
-
+import { RecoilRoot } from 'recoil'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 // function MyApp({ Component, pageProps }: AppProps) {
 function MyApp({ Component, pageProps }: AppProps) {
   // const [user, loading, error] = useAuthState(auth);
@@ -18,10 +19,11 @@ function MyApp({ Component, pageProps }: AppProps) {
     // </Provider>
     <AnimatePresence exitBeforeEnter>
       <RecoilRoot>
-          <Component {...pageProps} />
-        </RecoilRoot>
-      </AnimatePresence>
-
+        <Component {...pageProps} />
+      </RecoilRoot>
+      <ToastContainer />
+    </AnimatePresence>
+      
 
   );
 }

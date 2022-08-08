@@ -7,6 +7,7 @@ import Content from '../components/Content'
 import Features from '../components/Features'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import MenuNav from '../components/BasicMenu'
 import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
 import { homeContainer } from '../components/Animations'
@@ -39,6 +40,7 @@ const Home = ( {bannerImages}: Props) => {
              {/* Contact section */}
              <Contact_sec />
              {/* Footer */}
+             <div className='w-screen h-[10vh]'></div>
              <Footer />
            </section>
       </main>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Content() {
@@ -9,42 +10,50 @@ function Content() {
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-500">Projects</h1>
                     <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                 </div>
-                <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+                <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on SAMG by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
                 </div>
                 {/* <div className="flex flex-wrap -m-4 relative"> */}
-                <div className="flex flex-wrap -m-4 relative">
-                    <div className="xl:w-1/4 md:w-1/2 p-4 ">
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/finished/1.jpg" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kajuru LGA</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kasuwa-Magani</h2>
-                        <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam commodi iusto culpa hic nobis.</p>
+                <div className="flex flex-wrap -m-4 relative cursor-pointer">
+                    <Link href={"/projects/gallaxymall"}>
+                        <div className="xl:w-1/4 md:w-1/2 p-4 ">
+                            <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/gallaxymall/dummy.jpg" alt="content"/>
+                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kaduna North LGA</h3>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Gallaxy Mall</h2>
+                            <p className="leading-relaxed text-base">3 cinemas, 6 restaurants. 48-line shops with over 360 nos. Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall.</p>
+                            </div>
+                        </div> 
+                    </Link>
+                    <Link href={"/projects/olarm"}>
+                        <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                            <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/olarm/4.jpg" alt="content"/>
+                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Zaria LGA</h3>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farm & Trailer Park</h2>
+                            <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/finished/20.jpg" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Zaria LGA</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Sabon-Gari Market</h2>
-                        <p className="leading-relaxed text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, quam delectus. Totam iste reprehenderit eius!</p>
+                    </Link>
+                    <Link href={"/projects/kasuwanmagani"}>
+                        <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                            <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/kasuwanmagani/2.jpg" alt="content"/>
+                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kajuru LGA</h3>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kasuwan-magani</h2>
+                            <p className="leading-relaxed text-base">Sales of Shops, Stalls, Warehouses and Restaurants totalling 6,546 units.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/finished/22.jpg" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kaduna City Center</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Murtala Muhammed Square</h2>
-                        <p className="leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta dolorum, sed quasi vel adipisci labore.</p>
+                    </Link>
+                    <Link href={"/projects/coldroom"}>
+                        <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                            <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
+                                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/barnawamarket/2.jpg" alt="content"/>
+                                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kaduna North LGA</h3>
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Cold Room</h2>
+                                <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/finished/18.jpg" alt="content"/>
-                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kaduna City Center</h3>
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">450 Capacity Park</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis adipisci dolor, eveniet porro consequuntur quos!</p>
-                        </div>
-                    </div>
+                    </Link>
                 </div>
              </div>
         </section>

@@ -1,9 +1,9 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { olarm } from "../../../data/projectPhotos";
+import { olarmImages } from "../../../data/olarmImages";
 
 export default function handler(
     req: NextApiRequest,
     res:NextApiResponse
 ) {
-  res.status(200).json(olarm)      
+  res.status(200).json(olarmImages)      
 }

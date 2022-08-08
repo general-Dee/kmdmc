@@ -5,19 +5,25 @@ import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useRecoilState } from "recoil"
-import { modalState } from "../atoms/modalAtom"
+import { modalState } from "../atoms/Atom"
 import { logOut } from "../firebase"
-
 
 
 function Dash_header() {
   const router = useRouter()
   const [open, setOpen ] = useRecoilState(modalState)
 
-  async function handleLogout(){
-    await logOut()
-    router.push('/login')
-}
+//   async function handleLogout(){
+//     // await logOut()
+//     router.push('/login')
+// }
+  const handleLogout = () => {
+
+    logOut()
+
+    router.push("/login")
+
+  }
 
   return (
     <div className="flex justify-between p-4">

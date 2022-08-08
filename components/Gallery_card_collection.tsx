@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { olarm } from '../data/projectPhotos';
+// import { olarm } from '../data/olarmImages';
 import Card from './Card'
  
 interface Props { 
