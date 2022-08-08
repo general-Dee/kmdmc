@@ -5,7 +5,7 @@ import Modal from './Modal'
 import Rightbar from './Rightbar'
 import Sidebar from './Sidebar'
 
-function Dash_body({email, name}) {
+function Dash_body({email}) {
   return (
     <div>
         {email && <p>`Logged in as: {email}`</p>}
