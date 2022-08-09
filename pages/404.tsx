@@ -14,7 +14,7 @@
 
 import Link from 'next/link'
 import React from 'react'
-import NotFoundFooter from '../components/NotFoundFooter'
+// import NotFoundFooter from '../components/NotFoundFooter'
 
 function NotFound() {
   return (
@@ -24,7 +24,7 @@ function NotFound() {
             <h2>That page doesn't exist</h2>
             <p>Go back to the <span className='text-blue-900'><Link href={"/"}>Homepage </Link></span> </p>
         </div>
-        <NotFoundFooter/>
+        {/* <NotFoundFooter/> */}
     </div>   
   )
 }

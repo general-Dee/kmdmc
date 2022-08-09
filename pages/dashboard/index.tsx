@@ -28,14 +28,14 @@ const admin = () => {
     useEffect(() => {
         const unsub = onAuthStateChanged(auth, (user) => {
           if(user) {
-            setCurrentUser({
-                name: user.displayName,
-                email: user.email
-            })
+            // setCurrentUser({
+            //     name: user.displayName,
+            //     email: user.email
+            // })
             // console.log(user)
             
           }else {
-            setCurrentUser(null)
+            // setCurrentUser(null)
             router.push("/login")
           }
         })

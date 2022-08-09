@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import TabInfo from '../components/TabInfo'
+// import TabInfo from '../components/TabInfo'
 import { useRouter } from 'next/router'
 import { signUp} from '../firebase'
 import { toast } from 'react-toastify'
 import { FaGofore } from "react-icons/fa"
 import Oauth from '../components/Oauth'
+import { User } from 'firebase/auth'
 
 interface Props {
     name: string,
@@ -45,17 +46,15 @@ function signup() {
         setLoading(true)
 
         // Sign up user
-        const req = signUp(name, email, password)  
+        signUp(name, email, password)  
         
-        if(req) {
-            setFormData((prevState) => ({
-                ...prevState,
-                name: "",
-                email: "",
-                password: ""
-            }))
-            router.push("/dashboard")
-        }
+        setFormData((prevState) => ({
+            ...prevState,
+            name: "",
+            email: "",
+            password: ""
+        }))
+        router.push("/dashboard")
         
         setLoading(false)
             
@@ -64,7 +63,7 @@ function signup() {
   return (
     <div className="relative flex h-screen w-screen flex-col bg-black md:items-center md:justify-center md:bg-transparent">
 
-         <TabInfo title="Sign up"/>
+         {/* <TabInfo title="Sign up"/> */}
          <Image  
             src= {"/img/login/login2.jpg"}
             layout= 'fill'

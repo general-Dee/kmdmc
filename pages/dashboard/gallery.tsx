@@ -1,13 +1,13 @@
 import React from 'react'
 import Dash_header from '../../components/Dash_header'
-import UploadForm from '../../components/UploadForm'
+// import UploadForm from '../../components/UploadForm'
 
 function gallery() {
   return (
     <>
         <Dash_header />
           
-        <UploadForm />
+        {/* <UploadForm /> */}
     </>
   )
 }

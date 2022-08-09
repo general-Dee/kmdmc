@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { createUserWithEmailAndPassword, getAuth, updateProfile, onAuthStateChanged, signOut, Auth, signInWithEmailAndPassword, sendPasswordResetEmail, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, updateProfile, onAuthStateChanged, signOut, signInWithEmailAndPassword, sendPasswordResetEmail, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore, getDoc, doc, serverTimestamp, setDoc, updateDoc} from "firebase/firestore"
 // import { useRouter } from "next/router";
 import { useEffect, useState } from "react"
@@ -26,7 +26,7 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore()
 
 // Initialize Firebase Authentication and get a reference to the service
-const auth = getAuth()
+export const auth = getAuth()
 
 
 // Sign up Functionality
@@ -36,9 +36,9 @@ export const signUp = async (name: string, email: string, password: string) => {
   
   const user = userCredential.user
 
-  updateProfile(auth.currentUser, {
-    displayName: name
-  })
+  // updateProfile(auth?.currentUser, {
+  //   displayName: name
+  // })
 
   // make copy of form data
   const userStore = {
@@ -155,10 +155,10 @@ export function useAuth() {
   //   })
   //   return unsub
   // }, [])
-  useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (user) => setCurrentUser(user))
-    return unsub
-  })
+  // useEffect(() => {
+  //   const unsub = onAuthStateChanged(auth, (user) => setCurrentUser(user))
+  //   return unsub
+  // })
 
   return currentUser
 }
