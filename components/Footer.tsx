@@ -130,10 +130,13 @@ function Footer() {
                     <a href="https://twitter.com/son_of_leke" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Dre</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                    <Link href={"/dashboard"}>
+                    {/* <Link href={"/dashboard"}>
                         <h2 className='admin_link'>Admin? &nbsp;&nbsp;</h2>
-                    </Link>
+                    </Link> */}
                     <div className="flex item-center space-x-4">
+                        <Link href={"https://alpha.kadunamarketsportal.com/login"}>
+                            <h1 className='admin_link'>ERP</h1>
+                        </Link>
                         <Link href={"https://twitter.com/KadunaMarkets"}>
                             <FaTwitter className= "footerSocialLink" />
                         </Link>
