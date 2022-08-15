@@ -17,7 +17,7 @@ interface Props{
   bannerImages: Array<any>
 }
 
-const Home = ( {bannerImages}: Props) => {
+const Home = () => {
   return (
     <motion.div className="h-screen bg-gradient-to-b lg:h-[140vh]" 
     variants={homeContainer} 

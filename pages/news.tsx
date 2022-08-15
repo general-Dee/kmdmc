@@ -28,7 +28,7 @@ function news() {
                 <span className="mt-1 text-gray-500 text-sm">22nd July 2022</span>
               </div>
               <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">KMDMC officials inspects Kasuwar Barci</h2>
+                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">KMDMC officials inspects Kasuwan Barci</h2>
                 <p className="leading-relaxed">The AGM Projects and Procurement, Yemi Bakare. Company Secretary/Legal Adviser, Barr Muhammad Sani Suleiman & Manager Stakeholder Relations, Abdulaziz  Umar inspected the ongoing re-construction of Kasuwan Barci Marker. It is one of our numerous market development projects in line with the states urban renewal agenda.</p>
                 {/* <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
