@@ -14,35 +14,6 @@ function kasuwanmagani() {
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Welcome to Kasuwan Magani</h1>
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Construction of 2024 shops, stalls, abattoirs, warehouses, banks, toilets, police station and parking lots.</p>
           </div>
-          <div className="flex flex-wrap md:-m-2 -m-1">
-            <div className="flex flex-wrap w-1/2">
-            <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagani/1.jpg"/>
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagani/2.jpg"/>
-              </div>
-              <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagani/3.jpg"/>
-              </div>
-            </div>
-            <div className="flex flex-wrap w-1/2">
-              <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagani/4.jpg"/>
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagani/5.jpg"/>
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagani/6.jpg"/>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex w-full mb-20 flex-wrap">
-            {/* <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Welcome to Kasuwan Magani</h1> */}
-            {/* <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Construction of 2024 shops, stalls, abattoirs, warehouses, banks, toilets, police station and parking lots.</p> */}
-          </div>
 
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">

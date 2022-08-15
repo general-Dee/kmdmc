@@ -32,7 +32,7 @@ function projects() {
         <Link href={"/projects/kasuwanmagaji"}>  
           <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
             <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kasuwanmagaji/1.jpg"/>
+              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kasuwanmagaji/7.jpg"/>
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">ZARIA LGA KADUNA</h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Dan Magaji</h1>
@@ -68,7 +68,7 @@ function projects() {
         <Link href={"/projects/kasuwanmagani"}>
           <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
             <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kasuwanmagani/1.jpg"/>
+              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kasuwanmagani/7.jpg"/>
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KAJURU LGA KADUNA</h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Kasuwan Magani</h1>
@@ -80,7 +80,7 @@ function projects() {
         <Link href={"/projects/sabomarket"}>
           <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
             <div className="flex relative">
-              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/sabomarket/1.jpg"/>
+              <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/sabomarket/7.jpg"/>
               <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                 <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA SOUTH LGA</h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Sabon Gari Market</h1>
