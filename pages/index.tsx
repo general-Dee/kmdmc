@@ -12,6 +12,10 @@ import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
 import { homeContainer } from '../components/Animations'
 
+export const config = {
+  unstable_runtimeJS: false
+}
+
 
 interface Props{
   bannerImages: Array<any>

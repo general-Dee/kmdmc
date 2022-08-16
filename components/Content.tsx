@@ -10,7 +10,7 @@ function Content() {
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-500">Projects</h1>
                     <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                 </div>
-                <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on SAMG by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
+                <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
                 </div>
                 {/* <div className="flex flex-wrap -m-4 relative"> */}
                 <div className="flex flex-wrap -m-4 relative cursor-pointer">

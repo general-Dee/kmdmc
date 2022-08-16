@@ -16,24 +16,24 @@ function kasuwanmagani() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/7.jpg"/>
+                <img alt="Kasuwan Magani" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/7.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/8.jpg"/>
+                <img alt="Kasuwan Magani" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/8.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/9.jpg"/>
+                <img alt="Kasuwan Magani" className="w-full h-full object-cover object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/9.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/10.jpg"/>
+                <img alt="Kasuwan Magani" className="w-full h-full object-cover object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/10.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/11.jpg"/>
+                <img alt="Kasuwan Magani" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/11.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/12.jpg"/>
+                <img alt="Kasuwan Magani" className="w-full object-cover h-full object-center block hover:cursor-pointer scale-100" src="/img/kasuwanmagaji/12.jpg"/>
               </div>
             </div>
           </div>

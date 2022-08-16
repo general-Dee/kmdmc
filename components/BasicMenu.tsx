@@ -3,6 +3,7 @@ import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
 import Link from 'next/link'
 import { useState } from 'react'
+import { FaBars } from 'react-icons/fa'
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
@@ -26,7 +27,7 @@ export default function BasicMenu() {
         onClick={handleClick}
         className="!capitalize !text-white"
       >
-        Browse
+        <FaBars className='w-5 h-5 mt-5' />
       </Button>
       <Menu
         id="basic-menu"

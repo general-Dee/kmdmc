@@ -3,6 +3,7 @@ import Footer from './Footer'
 import Image from "next/image"
 import { ClassNames } from '@emotion/react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 
 

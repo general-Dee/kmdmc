@@ -104,3 +104,24 @@ export const aboutUs = {
         },
     }
 }
+export const projects = {
+    hidden: {
+        opacity: 0,
+        x: 200
+    },
+    show: {
+        opacity: 1,
+        x: 0,
+        height: "100vh",
+        transition: {
+            duration: .5,
+        },
+    },
+    hide: {
+        opacity: 0,
+        x: 200,
+        transition: {
+            duration: 0.75,
+        },
+    }
+}
