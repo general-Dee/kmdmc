@@ -33,11 +33,11 @@ function Banner({bannerImages}: Props) {
 
       {/* absolute top-[20vh] md:top-30 sm:top-20 */}
       <motion.div variants={ bannerText } className="z-10 md:pb-10 sm:pb-20 h-[80vh]">
-        <h1  className='font-bold text-shadow-md mt-20 pt-20 text-2xl text-white md:text-4xl lg:text-7xl'>
+        <h1  className='font-bold text-shadow-md mt-20 pt-20 text-4xl text-white md:text-6xl lg:text-8xl'>
           {`${bannerImg?.title }`}
         </h1>
         {/* relative top-[22vh] text-shadow-md max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl */}
-        <p className='text-shadow-md max-w-xs text-white text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>  
+        <p className='text-shadow-md max-w-xs text-white text-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>  
           {`${bannerImg?.overview}`}
         </p>
         <Link href={"/projects"}>

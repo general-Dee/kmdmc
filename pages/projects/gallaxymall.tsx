@@ -3,6 +3,7 @@ import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import { useRecoilState } from 'recoil'
 import { modalState } from '../../atoms/Atom'
+import Image from 'next/image'
 
 function gallaxymall() {
   const [open, setOpen] = useRecoilState(modalState)
@@ -22,24 +23,24 @@ function gallaxymall() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2 hover:cursor-pointer" >
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gallaxymall/1.jpg" onClick={() => setOpen(true)}/>
+                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gallaxymall/1.jpg" onClick={() => setOpen(true)}/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/2.jpg"/>
+                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/2.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/3.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/3.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/4.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/4.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/5.jpg"/>
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/5.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/6.jpg"/>
+                <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/6.jpg"/>
               </div>
             </div>
           </div>
@@ -52,24 +53,24 @@ function gallaxymall() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2 hover:cursor-pointer">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gallaxymall/6.jpg"/>
+                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gallaxymall/6.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/7.jpg"/>
+                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/7.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/8.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/8.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/9.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gallaxymall/9.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/10.jpg"/>
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/10.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/11.jpg"/>
+                <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gallaxymall/11.jpg"/>
               </div>
             </div>
           </div>

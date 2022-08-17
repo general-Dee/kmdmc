@@ -39,7 +39,7 @@ function Content() {
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/kasuwanmagani/10.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kajuru LGA</h3>
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kasuwan-magani</h2>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kasuwan Magani</h2>
                             <p className="leading-relaxed text-base">Sales of Shops, Stalls, Warehouses and Restaurants totalling 6,546 units.</p>
                             </div>
                         </div>

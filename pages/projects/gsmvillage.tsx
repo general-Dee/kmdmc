@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
@@ -18,24 +19,24 @@ function gsmvillage() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2 hover:cursor-pointer" >
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gsmvillage/1.jpg" />
+                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gsmvillage/1.jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/2.jpg"/>
+                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/2.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/3.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/3.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/4.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/4.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/5.jpg"/>
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/5.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/6.jpg"/>
+                <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/6.jpg"/>
               </div>
             </div>
           </div>
@@ -48,24 +49,24 @@ function gsmvillage() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2 hover:cursor-pointer">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gsmvillage/6.jpg"/>
+                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/gsmvillage/6.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/7.jpg"/>
+                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/7.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/8.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/8.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/9.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block hover:cursor-pointer" src="/img/gsmvillage/9.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/10.jpg"/>
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/10.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/11.jpg"/>
+                <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block hover:cursor-pointer" src="/img/gsmvillage/11.jpg"/>
               </div>
             </div>
           </div>

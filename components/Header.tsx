@@ -65,8 +65,6 @@ function Header() {
           </Link>
           
         </motion.div>  
-
-        {/* <FaBars className="menuLink"/>   */}
     </header>
   )
 }

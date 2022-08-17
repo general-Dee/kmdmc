@@ -11,6 +11,7 @@ import MenuNav from '../components/BasicMenu'
 import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
 import { homeContainer } from '../components/Animations'
+import Statements from '../components/Statements'
 
 // export const config = {
 //   unstable_runtimeJS: false
@@ -37,6 +38,7 @@ const Home = () => {
       <main className='relative pl-4 lg:space-y-24 lg:pl-16'>
            <Banner bannerImages={ bannerImgs }/>
            <section className='absolute left-0 space-y-16'>
+            <Statements />
              {/* Content seccion */}
              <Content />
              {/* Features */}

@@ -21,7 +21,7 @@
     }
 
     .socialLink {
-        @apply h-4 w-4 md:h-5 md:w-5 lg:h-6 lg:w-6 cursor-pointer text-[#eeeded] hover:text-gray-400 transition duration-[.4s]
+        @apply h-4 w-4 md:h-5 md:w-5 lg:h-6 lg:w-6 cursor-pointer text-[#94a3b8] hover:text-gray-300 transition duration-[.4s]
     }
 
     .menuLink {
