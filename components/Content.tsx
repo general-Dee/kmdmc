@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -17,18 +18,18 @@ function Content() {
                     <Link href={"/projects/gallaxymall"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 ">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/gallaxymall/dummy.jpg" alt="content"/>
-                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kaduna North LGA</h3>
+                            <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/gallaxymall/2.jpg" alt="content"/>
+                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Gallaxy Mall</h2>
-                            <p className="leading-relaxed text-base">3 cinemas, 6 restaurants. 48-line shops with over 360 nos. Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall.</p>
+                            <p className="leading-relaxed text-base">Newly constructed mall containing 3 cinemas, 6 restaurants. 48-line shops with over 360 nos.</p>
                             </div>
                         </div> 
                     </Link>
                     <Link href={"/projects/olarm"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/olarm/4.jpg" alt="content"/>
-                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Chikun LGA</h3>
+                            <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/olarm/7.jpg" alt="content"/>
+                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Chikun LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farm & Trailer Park</h2>
                             <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks</p>
                             </div>
@@ -37,8 +38,8 @@ function Content() {
                     <Link href={"/projects/kasuwanmagani"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/kasuwanmagani/10.jpg" alt="content"/>
-                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kajuru LGA</h3>
+                            <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/kasuwanmagani/10.jpg" alt="content"/>
+                            <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kajuru LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kasuwan Magani</h2>
                             <p className="leading-relaxed text-base">Sales of Shops, Stalls, Warehouses and Restaurants totalling 6,546 units.</p>
                             </div>
@@ -47,8 +48,8 @@ function Content() {
                     <Link href={"/projects/coldroom"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                                <img className="h-40 rounded w-full object-cover object-center mb-6" src="/img/coldroom/2.jpg" alt="content"/>
-                                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">Kaduna North LGA</h3>
+                                <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/coldroom/2.jpg" alt="content"/>
+                                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Cold Room</h2>
                                 <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks.</p>
                             </div>

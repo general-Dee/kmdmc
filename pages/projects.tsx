@@ -26,7 +26,7 @@ function projects() {
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Gallaxy Mall</h1>
-                        <p className="leading-relaxed">3nr cinemas, 6 restaurants. 48-line shops with over 360 nos. Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall.</p>
+                        <p className="leading-relaxed">A mall consisting of 3 cinemas, 6 restaurants. 48-line shops with over 360 nos. Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall.</p>
                     </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ function projects() {
               <div className="flex relative">
                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kasuwanmagaji/7.jpg"/>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">ZARIA LGA KADUNA</h2>
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">ZARIA LGA</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Dan Magaji</h1>
                   <p className="leading-relaxed">Construction of 2024 shops, stalls, abattoirs, warehouses, banks, toilets, police station and parking lots. All of which will be available for the recidents</p>
                 </div>
@@ -48,7 +48,7 @@ function projects() {
               <div className="flex relative">
                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/olarm/2.jpg"/>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">OLAM</h2>
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1"></h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Olarm Farms / Trailer Park</h1>
                   <p className="leading-relaxed">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks. Construction of over 100 capacity Trailer Park</p>
                 </div>

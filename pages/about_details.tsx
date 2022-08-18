@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import About_more from '../components/About_more'
 import Footer from '../components/Footer'
+import { ArrowLeftIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
 
 function news() {
   return (
@@ -18,8 +20,11 @@ function news() {
       
       <div className='w-screen h-[2vh]'></div>
 
-      <div className="container my-20 px-40 py-20 text-center text-lg text-gray-700 space-y-6">
-         <h1 className="text-2xl mb-8">More on what we do</h1>
+      <div className="container my-20  mx-auto px-40 sm:px-10 py-20 text-center text-lg text-gray-700 space-y-6">
+        <Link href={"/about"}>
+         <div className='fixed left-5 top-[15vh] px-5 py-3 bg-slate-200 text text-gray-900 cursor-pointer rounded'>Back</div>
+        </Link>
+         <h1 className="text-2xl mb-8 font-extrabold">More on what we do</h1>
         <p>
             Our mandate is to deliver excellence in our project developments and facility management
             services and with our team of experts we are changing the face of Kaduna one
