@@ -23,7 +23,8 @@ function Banner({bannerImages}: Props) {
   return (
     <div className='max-w-4xl overflow-x-hidden flex flex-col over'>      
       <div className='absolute top-0 left-0 -z-6 h-[95vh] w-screen'>
-        <Image 
+        <Image
+        priority 
         src= {`/${bannerImg ? bannerImg.img : ""}`}
         layout= 'fill'
         objectFit='cover'

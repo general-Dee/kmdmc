@@ -6,6 +6,7 @@ import About_more from '../components/About_more'
 import Footer from '../components/Footer'
 import { ArrowLeftIcon } from '@heroicons/react/solid'
 import Link from 'next/link'
+import { FaArrowLeft } from 'react-icons/fa'
 
 function news() {
   return (
@@ -20,7 +21,7 @@ function news() {
       
       <div className='w-screen h-[2vh]'></div>
       <Link href={"/about"}>
-         <div className='fixed left-10 lg:left-20 top-[15vh] text-xl sm:text-sm px-5 py-3 bg-slate-200 text text-gray-900 cursor-pointer rounded'>Back</div>
+         <div className='fixed left-10 lg:left-20 top-[15vh] text-xl sm:text-sm px-5 py-3 bg-slate-200 text text-gray-900 cursor-pointer rounded'><FaArrowLeft/></div>
         </Link>
       <section className="text-gray-600 body-font">
   <div className="container px-5 py-40 mx-auto">
