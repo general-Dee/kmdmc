@@ -12,6 +12,7 @@ import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
 import { homeContainer } from '../components/Animations'
 import Statements from '../components/Statements'
+// import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
 //   unstable_runtimeJS: false

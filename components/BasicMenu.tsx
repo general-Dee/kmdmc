@@ -54,6 +54,9 @@ export default function BasicMenu() {
         <Link href={"/projects"}>
             <MenuItem onClick={handleClose}>Projects</MenuItem>  
         </Link>
+        <Link href={"/gallery"}>
+            <MenuItem onClick={handleClose}>Gallery</MenuItem>  
+        </Link>
       </Menu>
     </div>
   )
