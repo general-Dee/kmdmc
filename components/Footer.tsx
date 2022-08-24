@@ -134,18 +134,18 @@ function Footer() {
                         <h2 className='admin_link'>Admin? &nbsp;&nbsp;</h2>
                     </Link> */}
                     <div className="flex item-center space-x-4">
-                        <Link href={"https://alpha.kadunamarketsportal.com/login"}>
+                        <a href={"https://alpha.kadunamarketsportal.com/login"} target={"_blank"} >
                             <h1 className='admin_link'>ERP</h1>
-                        </Link>
-                        <Link href={"https://twitter.com/KadunaMarkets"}>
+                        </a>
+                        <a href={"https://twitter.com/KadunaMarkets"} target={"_blank"} >
                             <FaTwitter className= "footerSocialLink" />
-                        </Link>
-                        <Link href={"https://www.instagram.com/kadunamarkets/?hl=en"}>
+                        </a>
+                        <a href={"https://www.instagram.com/kadunamarkets/?hl=en"} target={"_blank"} >
                             <FaInstagram className= "footerSocialLink" />
-                        </Link>
-                        <Link href={"https://web.facebook.com/kmdmc"}>
+                        </a>
+                        <a href={"https://web.facebook.com/kmdmc"} target={"_blank"} >
                             <FaFacebook className="footerSocialLink" />
-                        </Link>
+                        </a>
                     </div> 
                 </span>
                 </div>
