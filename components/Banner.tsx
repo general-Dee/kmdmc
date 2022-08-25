@@ -33,19 +33,21 @@ function Banner({bannerImages}: Props) {
       </div>
 
       {/* absolute top-[20vh] md:top-30 sm:top-20 */}
-      <motion.div variants={ bannerText } className="z-10 md:pb-10 sm:pb-20 h-[80vh]">
-        <h1  className='font-bold text-shadow-md mt-20 pt-20 text-4xl text-white md:text-6xl lg:text-8xl'>
-          {`${bannerImg?.title }`}
-        </h1>
-        {/* relative top-[22vh] text-shadow-md max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl */}
-        <p className='text-shadow-md max-w-xs text-white text-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl'>  
-          {`${bannerImg?.overview}`}
-        </p>
-        <Link href={"/projects"}>
-          <button className='bannerBtn '> <InformationCircleIcon className='h-5 w-5 md:h-8 md:w-8'/>
-            More Info
-          </button>
-        </Link>
+      <motion.div variants={ bannerText } className="z-10 md:pb-10 sm:pb-20 h-[80vh] ">
+        <div className='p-5 mt-40 bg-slate-800 w-[50%] md:w-[75%] lg:w-[76%] bg-opacity-40 rounded-lg'>
+          <h1  className='font-bold text-shadow-md pt-10 pb-5 text-xl text-white md:text-2xl lg:text-4xl opacity-100'>
+            {`${bannerImg?.title }`}
+          </h1>
+          {/* relative top-[22vh] text-shadow-md max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl */}
+          <p className='text-shadow-md max-w-xs text-white text-md md:max-w-lg md:text-lg lg:max-w-2xl lg:text-xl'>  
+            {`${bannerImg?.overview}`}
+          </p>
+          <Link href={"/projects"}>
+            <button className='bannerBtn '> <InformationCircleIcon className='h-5 w-5 md:h-8 md:w-8'/>
+              More Info
+            </button>
+          </Link>
+        </div>
       </motion.div>
  
     </div>

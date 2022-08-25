@@ -62,7 +62,7 @@ function news() {
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">July Tradefair</h2>
-                <p className="leading-relaxed">KMDMC hosted the second edition of the #KMDMC Tradefair at Murtala Muhammed Square. The tradefair is inline with our commitment to provide safe and condusive commercial platforms for traders and business owners in Kaduna State. Side activities include a free enterprenurship and business workshop, Mini Football Tournament hosted by Kadunas United Club (KUC), board games by Fasaha cafe, a picnic section, photobooth and kids playing area</p>
+                <p className="leading-relaxed">KMDMC hosted the second edition of the #KMDMC Tradefair at Murtala Muhammed Square. The tradefair is in line with our commitment to provide safe and conducive commercial platforms for traders and business owners in Kaduna State. Side activities include a free enterprenurship and business workshop, Mini Football Tournament hosted by Kaduna United Football Club (KUFC), board games by Fasaha cafe, a picnic section, photobooth and kids playing area</p>
                 {/* <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14"></path>

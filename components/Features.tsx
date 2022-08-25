@@ -36,7 +36,7 @@ function Features() {
                     <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Service Delivery</h2>
                     <p className="leading-relaxed text-base">A key objective for the company has been the improvement
                         of service delivery especially in Sheikh Abubakar Gumi
-                        market which was the only market under KMDMC’s
+                        Market which was the only market under KMDMC’s
                         management. </p>
                 </div>
             </div>

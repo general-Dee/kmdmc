@@ -17,7 +17,10 @@ function About() {
                     <div className="rounded-lg h-84 overflow-hidden p-10 flex justify-center">
                         <Image width={1200} height={500} priority alt="content" className="object-cover object-center h-full w-full" objectFit='cover' src="/img/md4.jpg" />
                     </div>
-                    <h3 className='font-semibold text-sm md:text-lg lg:text-xl'>Managing Director / Chief Executive Officer </h3>
+                    <div className='ml-10'>
+                        <h3 className='font-bold text-lg md:text-lg lg:text-xl'>Tamar Nandul</h3>
+                        <p className='text-sm'>Managing Director / Chief Executive Officer </p>
+                    </div>
                     <div className="flex flex-col sm:flex-row mt-10">
                         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                             <div className="w-12 h-12 p-2 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
@@ -34,11 +37,11 @@ function About() {
 
                                 We are profoundly committed to putting the State as the top destination for Business, Leisure and Recreation in line with the Urban Renewal Agenda of His Excellency.
 
-                                We are working with an array of competent and quality driven contractor even through the Covid-19 pandemic, albeit following strict health and safety guidelines to bring these projects to fruition in a timely manner.
+                                We are working with an array of competent and quality driven contractors/developers even through the Covid-19 pandemic, albeit following strict health and safety guidelines to bring these projects to fruition in a timely manner.
 
-                                One of these projects such as the completion of the remodelling and conversion of Yar'adua Hall has the potential to become the most coveted event centre in Northern Nigeria. At completion, the hall will be a convergence point with more than enough grandeur to rival its international counterparts.
+                                One of these projects such as remodelling and conversion of Yar'adua Hall has the potential to become the most coveted event centre in Northern Nigeria. At completion, the hall will be a convergence point with more than enough grandeur to rival its international counterparts.
 
-                                The development of Commercial Hubs in Kajuru, Sabon Gari, Kaduna North/South, and Giwa, as an attempt to diversify the company's portfolio have averaged about 45% completion, a few of which is scheduled to be opened before the end of 2020.</p>
+                                The development of Commercial Hubs in Kajuru, Sabon Gari, Kaduna North/South, and Giwa, as an attempt to diversify the company's portfolio have averaged about 50% completion, a few of which is scheduled to be opened before the end of 2022.</p>
                                 
                            <Link href={"/about_details"}>
                                 <a className="text-indigo-500 inline-flex items-center">Learn More

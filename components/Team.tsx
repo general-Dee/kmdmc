@@ -145,8 +145,8 @@ function Team() {
           <Image src="/img/gm.jpg" width={500} height={240} alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"/>
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-900">Yemi Bakare</h2>
-            <h3 className="text-gray-500 mb-3">GM</h3>
-            <p className="mb-4">General Manager</p>
+            <h3 className="text-gray-500 mb-3">GM Operations</h3>
+            <p className="mb-4">General Manager Operations</p>
             <span className="inline-flex ml-2 text-gray-500 hover:cursor-pointer hover:text-slate-200 transition">
               <Link href={"https://twitter.com/YemieBakare"}>
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">

@@ -72,7 +72,7 @@ function Contact() {
         <div className="container px-5 py-24 my-20 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Do well to leave us a message and we will be sure to process it and get back</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Please leave us a message</p>
             </div>
             <form onSubmit={handleSubmit}>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -107,17 +107,17 @@ function Contact() {
                         <br/>27 Ali Akilu Road, Kaduna.
                     </p>
                     <span className="inline-flex space-x-6">
-                        <Link href={"https://web.facebook.com/kmdmc"}>
+                        <a href={"https://web.facebook.com/kmdmc"} target={"_blank"}>
                             <FaFacebook className="cursor-pointer" />
-                         </Link>
+                         </a>
 
-                        <Link href={"https://twitter.com/KadunaMarkets"}>
+                        <a href={"https://twitter.com/KadunaMarkets"} target={"_blank"}>
                             <FaTwitter className= "cursor-pointer" />
-                        </Link>
+                        </a>
                         
-                        <Link href={"https://www.instagram.com/kadunamarkets/?hl=en"}>
+                        <a href={"https://www.instagram.com/kadunamarkets/?hl=en"} target={"_blank"}>
                             <FaInstagram className= "cursor-pointer" />
-                        </Link>                        
+                        </a>                        
                     </span>
                     </div>
                 </div>

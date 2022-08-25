@@ -2,20 +2,20 @@ export const bannerImgs = [
     {
       id: 1,
       img: "img/banner/1.jpg",
-      title: "Gallaxy Mall",
-      overview: "3 cinemas, 6 restaurants, 48-line shops, Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall."  
+      title: "Galaxy Mall",
+      overview: "A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area."  
     },
     {
       id: 2,
       img: "img/banner/2.jpg",
-      title: "Gallaxy Mall",
-      overview: "3 cinemas, 6 restaurants, 48-line shops, Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall."  
+      title: "Galaxy Mall",
+      overview: "A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area."  
     },
     {
       id: 3,
       img: "img/banner/3.jpg",
-      title: "Gallaxy Mall",
-      overview: "3 cinemas, 6 restaurants, 48-line shops, Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall."  
+      title: "Galaxy Mall",
+      overview: "A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area."  
     },
     {
       id: 4,
@@ -38,20 +38,20 @@ export const bannerImgs = [
     {
       id: 7,
       img: "img/banner/7.jpg",
-      title: "Gallaxy Mall",
-      overview: "3 cinemas, 6 restaurants, 48-line shops, Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall."  
+      title: "Galaxy Mall",
+      overview: "A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area."  
     },
     {
       id: 8,
       img: "img/banner/8.jpg",
-      title: "Gallaxy Mall",
-      overview: "3 cinemas, 6 restaurants, 48-line shops, Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall."  
+      title: "Galaxy Mall",
+      overview: "A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area."  
     },
     {
       id: 9,
       img: "img/banner/9.jpg",
-      title: "Gallaxy Mall",
-      overview: "3 cinemas, 6 restaurants, 48-line shops, Car parking bays with approximatly 8,834 square meters of gross lettable area within the mall."  
+      title: "Galaxy Mall",
+      overview: "A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area."  
     },
     {
       id: 10,
@@ -68,13 +68,13 @@ export const bannerImgs = [
     {
       id: 12,
       img: "img/banner/12.jpg",
-      title: "Olam Farm / Trailer park",
+      title: "Olam Trailer Park and Grains Market",
       overview: "Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks"  
     },
     {
       id: 13,
       img: "img/banner/13.jpg",
-      title: "Olam Farm / Trailer park",
+      title: "Olam Trailer Park and Grains Market",
       overview: "Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks"  
     },
     {

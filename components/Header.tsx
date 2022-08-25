@@ -52,21 +52,20 @@ function Header() {
             </ul>
         </div>    
 
-        <motion.div variants={ sm } className="flex item-center space-x-4 mr-6">
-          {/* <Link href={"https://twitter.com/KadunaMarkets"} target="_blank">
-            <FaTwitter className= "socialLink" />
-          </Link> */}
-          <a href={"https://twitter.com/KadunaMarkets"} target={"_blank"}>
-            <FaTwitter className= "socialLink" />
-          </a>
-          
-          <a href={"https://www.instagram.com/kadunamarkets/?hl=en"} target={"_blank"}>
-            <FaInstagram className= "socialLink" />
-          </a>
+        <motion.div variants={ sm }>
+          <div className="flex item-center p-6 space-x-4 mr-6 bg-slate-800 bg-opacity-40 rounded-lg">
+            <a href={"https://twitter.com/KadunaMarkets"} target={"_blank"}>
+              <FaTwitter className= "socialLink" />
+            </a>
+            
+            <a href={"https://www.instagram.com/kadunamarkets/?hl=en"} target={"_blank"}>
+              <FaInstagram className= "socialLink" />
+            </a>
 
-          <a href={"https://web.facebook.com/kmdmc"} target={"_blank"}>
-            <FaFacebook className="socialLink" />
-          </a>
+            <a href={"https://web.facebook.com/kmdmc"} target={"_blank"}>
+              <FaFacebook className="socialLink" />
+            </a>
+          </div>
           
         </motion.div>  
     </header>

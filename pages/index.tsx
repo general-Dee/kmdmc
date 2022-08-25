@@ -12,6 +12,7 @@ import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
 import { homeContainer } from '../components/Animations'
 import Statements from '../components/Statements'
+import Selling_points from '../components/Selling_points'
 // import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
@@ -40,7 +41,9 @@ const Home = () => {
            <Banner bannerImages={ bannerImgs }/>
            <section className='absolute left-0 space-y-16'>
             <Statements />
-             {/* Content seccion */}
+             {/* Content section */}
+             <Selling_points />
+             {/* s */}
              <Content />
              {/* Features */}
              <Features />

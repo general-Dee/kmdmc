@@ -21,7 +21,7 @@
     }
 
     .socialLink {
-        @apply h-4 w-4 md:h-5 md:w-5 lg:h-6 lg:w-6 cursor-pointer text-[#94a3b8] hover:text-gray-300 transition duration-[.4s]
+        @apply h-4 w-4 md:h-5 md:w-5 lg:h-6 lg:w-6 cursor-pointer text-gray-100 hover:text-gray-300 transition duration-[.4s]
     }
 
     .menuLink {
@@ -88,4 +88,7 @@
         @apply w-["100px"] text-white flex flex-col space-y-2 mx-auto items-center
     }
         
+    .footer_heading {
+        @apply text-2xl text-gray-900 tracking-widest mb-3
+    }
 }

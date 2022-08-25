@@ -5,22 +5,22 @@ import React from 'react'
 function Content() {
   return (
         <section className= "text-gray-600 body-font bg-white w-screen ">
-            <div className="container left-0 z-10 px-5 pb-10 mx-auto">
+            <div className="container left-0 z-10 px-5 pb-10 mt-40 mx-auto">
                 <div className="flex flex-wrap w-full mb-20">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-500">Projects</h1>
                     <div className="h-1 w-20 bg-indigo-500 rounded"></div>
                 </div>
-                <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
+                <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi Market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
                 </div>
                 {/* <div className="flex flex-wrap -m-4 relative"> */}
                 <div className="flex flex-wrap -m-4 relative cursor-pointer">
-                    <Link href={"/projects/gallaxymall"}>
+                    <Link href={"/projects/Galaxymall"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 ">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                            <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/gallaxymall/2.jpg" alt="content"/>
+                            <Image width={720} height={400} className="h-40 rounded w-fulChikun LGAGl object-cover object-center mb-6" src="/img/galaxymall/2.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Gallaxy Mall</h2>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Galaxy Mall</h2>
                             <p className="leading-relaxed text-base">Newly constructed mall containing 3 cinemas, 6 restaurants. 48-line shops with over 360 nos.</p>
                             </div>
                         </div> 

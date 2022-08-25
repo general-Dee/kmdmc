@@ -15,18 +15,18 @@ function projects() {
           <section className="text-gray-600 body-font" >
             <div className="container px-5 py-24 mx-auto mt-20">
                 <div className="flex flex-col text-center w-full mb-20">
-                  <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Project Gallery</h1>
+                  <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Markets</h1>
                   <p className="lg:w-2/3 mx-auto leading-relaxed text-base">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
                 </div>
             <div className="flex flex-wrap -m-4">
-              <Link href={"/projects/gallaxymall"}>
+              <Link href={"/projects/Galaxymall"}>
                 <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
                     <div className="flex relative">
-                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/gallaxymall/1.jpg"/>
+                    <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/Galaxymall/1.jpg"/>
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
-                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Gallaxy Mall</h1>
-                        <p className="leading-relaxed">A mall consisting of 3 cinemas, 6 restaurants. 48-line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area.</p>
+                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Galaxy Mall</h1>
+                        <p className="leading-relaxed">A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area.</p>
                     </div>
                     </div>
                 </div>
@@ -49,8 +49,8 @@ function projects() {
                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/olarm/2.jpg"/>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">CHIKUN LGA</h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Olarm Farms / Trailer Park</h1>
-                  <p className="leading-relaxed">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks. Construction of over 100 capacity trailer park.</p>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Olam Trailer Park and Grains Market</h1>
+                  <p className="leading-relaxed">Construction of Parking Bays for 120 trailers, Grains Market, Travelers Inn, Food Court, Warehouses and Mechanic Workshops.</p>
                 </div>
               </div>
             </div>
