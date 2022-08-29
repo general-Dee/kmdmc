@@ -97,6 +97,9 @@ function Footer() {
                         <a className="text-gray-200 ">&bull;   Tudun Wada Market, Zaria LGA</a>
                     </li>
                     <li>
+                        <a className="text-gray-200 ">&bull;   Kafanchan Modern Market</a>
+                    </li>
+                    <li>
                         <a className="text-gray-200 ">&bull;  Millennium City Market</a>
                     </li>
                     
