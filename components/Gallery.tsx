@@ -1,23 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from './Header'
+// import {olarmImages} from "../data/olarmImages"
 
-import Gallery_card_collection from './Gallery_card_collection'
-import { olarm } from '../data/projectPhotos'
-import UploadForm from './UploadForm'
+function Gallery({ olarmImages: [] }) {
+  const [olarmImages, setOlarmImages] = useState<any>(null);
 
 
-interface Props {
-  projectPhotos: Array<any>
-}
-
-function Gallery({ projectPhotos }: Props) {
+  useEffect(() => {
+    // setOlarmImages()
+    // setInterval(() => setFlag(!flag), 9000)
+  }, [olarmImages])
+  console.log(olarmImages)
   return (
     <>
-    <Header />
-
-    <UploadForm />
+      <Header />
+      <ul>
+       
+      </ul>
     </>
   )
 }
 
-export default Gallery
+export default Gallery 

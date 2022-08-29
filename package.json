@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server": "json-server --watch db.json --port 5000",
+    "fullstack": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -14,6 +16,8 @@
     "@reduxjs/toolkit": "^1.8.2",
     "firebase": "^9.8.3",
     "framer-motion": "^6.3.4",
+    "json-server": "^0.17.0",
+    "materialize-css": "^1.0.0-rc.2",
     "next": "latest",
     "next-auth": "^4.3.4",
     "react": "^17.0.2",
@@ -24,6 +28,7 @@
     "react-redux": "^8.0.2",
     "react-slideshow-image": "^3.7.3",
     "react-spinners": "^0.12.0",
+    "react-toastify": "^9.0.5",
     "recoil": "^0.7.4",
     "redux": "^4.2.0",
     "tailwind-scrollbar-hide": "^1.1.7",

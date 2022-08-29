@@ -7,16 +7,24 @@ import Content from '../components/Content'
 import Features from '../components/Features'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import MenuNav from '../components/BasicMenu'
 import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
 import { homeContainer } from '../components/Animations'
+import Statements from '../components/Statements'
+import Selling_points from '../components/Selling_points'
+// import 'materialize-css/dist/css/materialize.min.css'
+
+// export const config = {
+//   unstable_runtimeJS: false
+// }
 
 
 interface Props{
   bannerImages: Array<any>
 }
 
-const Home = ( {bannerImages}: Props) => {
+const Home = () => {
   return (
     <motion.div className="h-screen bg-gradient-to-b lg:h-[140vh]" 
     variants={homeContainer} 
@@ -32,13 +40,17 @@ const Home = ( {bannerImages}: Props) => {
       <main className='relative pl-4 lg:space-y-24 lg:pl-16'>
            <Banner bannerImages={ bannerImgs }/>
            <section className='absolute left-0 space-y-16'>
-             {/* Content seccion */}
+            <Statements />
+             {/* Content section */}
+             <Selling_points />
+             {/* s */}
              <Content />
              {/* Features */}
              <Features />
              {/* Contact section */}
              <Contact_sec />
              {/* Footer */}
+             <div className='w-screen h-[10vh]'></div>
              <Footer />
            </section>
       </main>
