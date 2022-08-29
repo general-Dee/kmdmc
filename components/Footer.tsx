@@ -81,7 +81,7 @@ function Footer() {
                         <a className="text-gray-600 ">&bull;  Kawo Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-600 ">&bull;  Bacci Market</a>
+                        <a className="text-gray-600 ">&bull;  Kasuwan Bacci</a>
                     </li>
                     <li>
                         <a className="text-gray-600 ">&bull;  Neighborhood Centre Zaria</a>
@@ -123,7 +123,7 @@ function Footer() {
             <div className="bg-gray-100">
                 <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                 <p className="text-gray-500 text-sm text-center sm:text-left">© 2022 KMDMC — developed by
-                    <a href="https://twitter.com/son_of_leke" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Dre</a>
+                    <a href="https://twitter.com/son_of_leke" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Dare Oshinowo</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                    

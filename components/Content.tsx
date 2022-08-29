@@ -15,7 +15,7 @@ function Content() {
                 </div>
                 {/* <div className="flex flex-wrap -m-4 relative"> */}
                 <div className="flex flex-wrap -m-4 relative cursor-pointer">
-                    <Link href={"/projects/Galaxymall"}>
+                    <Link href={"/projects/galaxymall"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 ">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <Image width={720} height={400} className="h-40 rounded w-fulChikun LGAGl object-cover object-center mb-6" src="/img/galaxymall/2.jpg" alt="content"/>

@@ -15,7 +15,7 @@ function About() {
             <div  className="container px-5 py-24 mx-auto my-20 flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-84 overflow-hidden p-10 flex justify-center">
-                        <Image width={1200} height={500} priority alt="content" className="object-cover object-center h-full w-full" objectFit='cover' src="/img/md4.jpg" />
+                        <Image width={1200} height={500} priority alt="content" className="object-cover object-center h-full w-full" objectFit='cover' src="/img/md3.jpg" />
                     </div>
                     <div className='ml-10'>
                         <h3 className='font-bold text-lg md:text-lg lg:text-xl'>Tamar Nandul</h3>

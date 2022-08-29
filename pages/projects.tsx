@@ -15,11 +15,24 @@ function projects() {
           <section className="text-gray-600 body-font" >
             <div className="container px-5 py-24 mx-auto mt-20">
                 <div className="flex flex-col text-center w-full mb-20">
-                  <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Markets</h1>
+                  <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Project Gallery</h1>
                   <p className="lg:w-2/3 mx-auto leading-relaxed text-base">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
                 </div>
             <div className="flex flex-wrap -m-4">
-              <Link href={"/projects/Galaxymall"}>
+
+            <Link href={"/projects/msquare"}>
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/msquare/2.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Murtala Muhammad Square</h1>
+                  <p className="leading-relaxed">The improvement of sports development amonge our youths and providecondisive avenue for residents to exercise.</p>
+                </div>
+              </div>
+            </div>
+            </Link>
+              <Link href={"/projects/galaxymall"}>
                 <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
                     <div className="flex relative">
                     <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/Galaxymall/1.jpg"/>
@@ -31,6 +44,20 @@ function projects() {
                     </div>
                 </div>
               </Link>
+
+              <Link href={"/projects/damau"}>
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/damau/14.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Damau Household Milk Farm Project</h1>
+                  <p className="leading-relaxed">The construction of 3338nr shops, open market stalls, warehouses and parking lots. Phased construction.</p>
+                </div>
+              </div>
+            </div>
+            </Link>
+
           <Link href={"/projects/kasuwanmagaji"}>  
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
@@ -103,7 +130,7 @@ function projects() {
                 </div>
               </div>
             </div>
-            </Link>
+          </Link>
 
           <Link href={"/projects/kawomarket"}>
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
@@ -130,6 +157,7 @@ function projects() {
               </div>
             </div>
             </Link>
+          
           </div>
         </div>
         </section>
