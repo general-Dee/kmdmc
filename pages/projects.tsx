@@ -10,7 +10,7 @@ function projects() {
   return (
     <>
         <Header />
-        <div className='w-screen h-[10vh] sm:h-[5vh]'></div>
+        <div className='w-screen h-[10vh] sm:h-[5vh]'> </div>
         {/* <motion.div variants={projects}> */}
           <section className="text-gray-600 body-font" >
             <div className="container px-5 py-24 mx-auto mt-20">
