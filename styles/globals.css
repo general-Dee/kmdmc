@@ -37,7 +37,7 @@
     }
 
     .footerSocialLink {
-        @apply h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 cursor-pointer text-gray-800 hover:text-gray-400 transition duration-[.4s]
+        @apply h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 cursor-pointer text-gray-300 hover:text-gray-400 transition duration-[.4s]
     }
 
     .row {
@@ -65,7 +65,7 @@
     }
 
     .admin_link {
-        @apply cursor-pointer text-gray-800 text-sm hover:text-gray-400 hover:font-bold
+        @apply cursor-pointer text-gray-300 text-sm hover:text-gray-400 hover:font-bold
     }
 
     .modalButton {
@@ -89,6 +89,6 @@
     }
         
     .footer_heading {
-        @apply text-2xl text-gray-900 tracking-widest mb-3
+        @apply text-2xl text-gray-200 tracking-widest mb-3
     }
 }
