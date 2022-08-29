@@ -16,7 +16,7 @@ function Footer() {
                     <span className='bg-gray-200 rounded-md'>
                         <Image src="/logo.png" width={70} height={80} className="cursor-pointer sm:w-5 sm:h-5"/>
                     </span>
-                    <span className="ml-3 text-sm text-gray-200">Kaduna Markets Development and Management Company</span>
+                    <span className="ml-3 text-sm text-gray-400">Kaduna Markets Development and Management Company</span>
                 </a>
                 {/* <p className="mt-2 text-sm text-gray-500">KMDMC is currently managing over twenty (20) projects across the state, these projects cut across Commercial, Recreation and Hospitality.</p> */}
                 </div>
@@ -29,25 +29,73 @@ function Footer() {
                         <a className="text-gray-600">&bull;  Neighborhood Centre within Murtala Square</a>
                     </li> */}
                     <li>
-                        <Link href={"/galaxymall"}>
+                        {/* <Link href={"/galaxymall"}> */}
                             <a className="text-gray-200">&bull;  Kaduna Galaxy Mall</a>
-                        </Link>
+                        {/* </Link> */}
                     </li>
                     <li>
-                        <Link href={"/kasuwanmagani"}>
+                        {/* <Link href={"/kasuwanmagani"}> */}
                             <a className="text-gray-200">&bull;  Kasuwan Magani</a>
-                        </Link>
+                        {/* </Link> */}
                     </li>
                     <li>
-                        <Link href={"/olarm"}>
+                        {/* <Link href={"/olarm"}> */}
                             <a className="text-gray-200">&bull;  Markets and Trailer Park at Olam</a>
-                        </Link>
+                        {/* </Link> */}
+                    </li>
+                    <li>
+                        {/* <Link href={"/olarm"}> */}
+                            <a className="text-gray-200">&bull;  Kawo Modern Market Kawo</a>
+                        {/* </Link> */}
+                    </li>
+                    <li>
+                        {/* <Link href={"/ungwanrimi"}> */}
+                            <a className="text-gray-200">&bull;  Unguwan Rimi Market Doka</a>
+                        {/* </Link> */}
+                    </li>
+                    <li>
+                        {/* <Link href={"/olarm"}> */}
+                            <a className="text-gray-200">&bull;  Kasuwan Barci Market</a>
+                        {/* </Link> */}
+                    </li>
+                    <li>
+                        {/* <Link href={"/olarm"}> */}
+                            <a className="text-gray-200">&bull;   Barnawa Mordern Market</a>
+                        {/* </Link> */}
+                    </li>
+                    <li>
+                        {/* <Link href={"/olarm"}> */}
+                            <a className="text-gray-200">&bull;   Modern GSM Village</a>
+                        {/* </Link> */}
+                    </li>
+                    <li>
+                        {/* <Link href={"/olarm"}> */}
+                            <a className="text-gray-200">&bull;   Shopping Mall at 69 Garage</a>
+                        {/* </Link> */}
                     </li>
                     </nav>
                 </div>
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                     <h2 className="footer_heading">Ongoing Projects</h2>
                     <nav className="list-none mb-10">
+                    <li>
+                        <a className="text-gray-200 ">&bull;  Damau Household Milkfarm Project </a>
+                    </li>
+                    <li>
+                        <a className="text-gray-200 ">&bull;  Olam Trailer Park and Grains Market</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-200 ">&bull;  Jere Trailer Park, Bus Terminal and Grains Market</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-200 ">&bull;   Sabon Gari Modern Market (Phase III)</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-200 ">&bull;   Zaria GSM/ICT Modern Market</a>
+                    </li>
+                    <li>
+                        <a className="text-gray-200 ">&bull;   Tudun Wada Market, Zaria LGA</a>
+                    </li>
                     <li>
                         <a className="text-gray-200 ">&bull;  Millennium City Market</a>
                     </li>

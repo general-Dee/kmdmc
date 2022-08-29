@@ -89,6 +89,6 @@
     }
         
     .footer_heading {
-        @apply text-2xl text-gray-200 tracking-widest mb-3
+        @apply text-2xl text-gray-400 tracking-widest mb-3
     }
 }
