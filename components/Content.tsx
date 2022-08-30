@@ -51,7 +51,7 @@ function Content() {
                                 <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/ugwanrimi/1.jpg" alt="content"/>
                                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Ugwanrimi Market</h2>
-                                {/* <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks.</p> */}
+                                <p className="leading-relaxed text-base">Commercial hub that is in line with KDSG's urban renewal agenda. It contains 1340 shops of different sqm sizes, warehouses, restrooms and car parking space.</p>
                             </div>
                         </div>
                     </Link>
