@@ -1,4 +1,5 @@
 import { addDoc, collection, onSnapshot } from 'firebase/firestore'
+import Image from 'next/image'
 import React, { FormEventHandler, useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { toast } from 'react-toastify'
@@ -44,6 +45,7 @@ function Contact_sec() {
         <section className="text-gray-600 body-font relative">
         <div className="container px-5 pt-24 pb-0 mx-auto flex sm:flex-nowrap flex-wrap">
             <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            {/* <Image width="100%" height="100%" src="/map_image.PNG" className='absolute top-0 left-0 w-full h-full'/> */}
                 <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                     <div className="lg:w-1/2 px-6">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>

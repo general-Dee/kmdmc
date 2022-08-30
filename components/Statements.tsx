@@ -23,7 +23,7 @@ function Statements() {
 <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">OUR VISION
+      <h1 className="title-font text-xl md:text-2xl lg:text-3xl mb-4 font-medium text-gray-900">OUR VISION
         {/* <br className="hidden lg:inline-block">readymade gluten/> */}
       </h1>
       <p className="mb-8 leading-relaxed">To provide quality service in an efficient and professional manner to ensure building safety and comfort.</p>
@@ -33,7 +33,7 @@ function Statements() {
       </div> */}
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">OUR MISSION
+      <h1 className="title-font text-xl md:text-2xl lg:text-3xl mb-4 font-medium text-gray-900">OUR MISSION
         {/* <br className="hidden lg:inline-block">readymade gluten/> */}
       </h1>
       <p className="mb-8 leading-relaxed">To deliver excellence in development and facilities management services focusing on sustainable best practice while being led by innovative technology, which satisfies the needs and exceeds the expectations of our customers, business partners and other stakeholders.</p>

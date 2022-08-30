@@ -17,7 +17,7 @@ function gallaxymall() {
 
           <div className="flex w-full mb-20 flex-wrap">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Damau Household Milk Farm Project</h1>
-            {/* <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Construction of 1nr Anchor Tenants, 3nr cinemas, 6 restaurants, 48-line shops with over 360 nos and car parking bays with approximatly 8,834 square meters of gross lettable area within the mall</p> */}
+            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">The Kaduna State Government, in collaboration with Aria Foods and Miyetti Allah Cattle Breeders Association of Nigeria (MACBAN) present to you the Damau Housing Milk Farm</p>
           </div>
 
           <div className="flex flex-wrap md:-m-2 -m-1">

@@ -50,7 +50,7 @@ function projects() {
                     <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/ugwanrimi/1.jpg"/>
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
-                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Ugwanrimi Market</h1>
+                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Ungwanrimi Market</h1>
                         {/* <p className="leading-relaxed">A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area.</p> */}
                     </div>
                     </div>
@@ -64,7 +64,7 @@ function projects() {
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Damau Household Milk Farm Project</h1>
-                  <p className="leading-relaxed">The construction of 3338nr shops, open market stalls, warehouses and parking lots. Phased construction.</p>
+                  <p className="leading-relaxed">The Kaduna State Government, in collaboration with Aria Foods and Miyetti Allah Cattle Breeders Association of Nigeria (MACBAN) present to you the Damau Housing Milk Farm</p>
                 </div>
               </div>
             </div>

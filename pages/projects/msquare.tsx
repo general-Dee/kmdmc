@@ -24,15 +24,15 @@ function olarm() {
                 <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/msquare/3.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/msquare/4.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/msquare/15.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/msquare/5.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/msquare/11.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/msquare/6.jpg"/>
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/msquare/12.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/msquare/7.jpg"/>
@@ -57,7 +57,7 @@ function olarm() {
                 <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/msquare/13.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/msquare/14.jpg"/>
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/msquare/20.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
