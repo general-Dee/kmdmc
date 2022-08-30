@@ -12,7 +12,7 @@ function gsmvillage() {
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
 
           <div className="flex w-full mb-20 flex-wrap">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Welcome to 740 (former GSM village)</h1>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">740 (former GSM village)</h1>
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Construction of 3338nr shops, open market stalls, warehouses and parking lots. Phased construction.</p>
           </div>
 

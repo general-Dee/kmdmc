@@ -12,7 +12,7 @@ function olarm() {
       <section className="text-gray-600 body-font mt-20">
         <div className="container px-5 pt-24 mx-auto flex flex-wrap">
           <div className="flex w-full mb-20 flex-wrap">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Welcome to Olam Farms Trailer Park and Grains Market</h1>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Olam Farms Trailer Park and Grains Market</h1>
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Construction of Parking Bays for 120 trailers, Grains Market, Travelers Inn, Food Court, Warehouses and Mechanic Workshops.</p>
           </div>
           <div className="flex flex-wrap md:-m-2 -m-1">

@@ -30,8 +30,8 @@ function Content() {
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/olarm/7.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Chikun LGA</h3>
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farm & Trailer Park</h2>
-                            <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks</p>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farms Trailer Park and Grains Market</h2>
+                            <p className="leading-relaxed text-base">Parking Bays for 120 trailers, Grains Market, Travelers Inn, Food Court, Warehouses and Mechanic Workshops.</p>
                             </div>
                         </div>
                     </Link>
@@ -45,13 +45,13 @@ function Content() {
                             </div>
                         </div>
                     </Link>
-                    <Link href={"/projects/coldroom"}>
+                    <Link href={"/projects/ugwanrimi"}>
                         <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                                <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/coldroom/2.jpg" alt="content"/>
+                                <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/ugwanrimi/1.jpg" alt="content"/>
                                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
-                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Cold Room</h2>
-                                <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks.</p>
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Ugwanrimi Market</h2>
+                                {/* <p className="leading-relaxed text-base">Construction of Mega Petrol and Diesel filling station, 4354 shops, warehouses, market stalls and car parks.</p> */}
                             </div>
                         </div>
                     </Link>
