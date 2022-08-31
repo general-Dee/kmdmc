@@ -15,7 +15,7 @@ function Selling_points() {
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
                 <FaChartArea className='w-10 h-10 mx-auto my-5 text-gray-900 md:w-12 md:h-12 lg:w-18 lg:h-18' />
-                <h2 className="title-font font-medium text-xl md:text-2xl lg:text-3xl text-gray-900">23</h2>
+                <h2 className="title-font font-medium text-xl md:text-2xl lg:text-3xl text-gray-900">7</h2>
                 <p className="leading-relaxed text-xl md:text-2xl lg:text-3xl">Local Government Areas</p>
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
