@@ -30,47 +30,47 @@ function Footer() {
                     </li> */}
                     <li>
                         {/* <Link href={"/galaxymall"}> */}
-                            <a className="text-gray-200">&bull;  Kaduna Galaxy Mall</a>
+                            <a className="footer_body">&bull;  Kaduna Galaxy Mall</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/kasuwanmagani"}> */}
-                            <a className="text-gray-200">&bull;  Kasuwan Magani</a>
+                            <a className="footer_body">&bull;  Kasuwan Magani</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="text-gray-200">&bull;  Markets and Trailer Park at Olam</a>
+                            <a className="footer_body">&bull;  Markets and Trailer Park at Olam</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="text-gray-200">&bull;  Kawo Modern Market Kawo</a>
+                            <a className="footer_body">&bull;  Kawo Modern Market Kawo</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/ungwanrimi"}> */}
-                            <a className="text-gray-200">&bull;  Unguwan Rimi Market Doka</a>
+                            <a className="footer_body">&bull;  Unguwan Rimi Market Doka</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="text-gray-200">&bull;  Kasuwan Barci Market</a>
+                            <a className="footer_body">&bull;  Kasuwan Barci Market</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="text-gray-200">&bull;   Barnawa Mordern Market</a>
+                            <a className="footer_body">&bull;   Barnawa Mordern Market</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="text-gray-200">&bull;   Modern GSM Village</a>
+                            <a className="footer_body">&bull;   Modern GSM Village</a>
                         {/* </Link> */}
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="text-gray-200">&bull;   Shopping Mall at 69 Garage</a>
+                            <a className="footer_body">&bull;   Shopping Mall at 69 Garage</a>
                         {/* </Link> */}
                     </li>
                     </nav>
@@ -79,41 +79,41 @@ function Footer() {
                     <h2 className="footer_heading">Ongoing Projects</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <a className="text-gray-200 ">&bull;  Damau Household Milkfarm Project </a>
+                        <a className="footer_body">&bull;  Damau Household Milkfarm</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;  Olam Trailer Park and Grains Market</a>
+                        <a className="footer_body">&bull;  Olam Trailer Park </a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;  Jere Trailer Park, Bus Terminal and Grains Market</a>
+                        <a className="footer_body">&bull;  Jere Trailer Park</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;   Sabon Gari Modern Market (Phase III)</a>
+                        <a className="footer_body">&bull;   Sabon Gari Modern Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;   Zaria GSM/ICT Modern Market</a>
+                        <a className="footer_body">&bull;   Zaria GSM/ICT Modern Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;   Tudun Wada Market, Zaria LGA</a>
+                        <a className="footer_body">&bull;   Tudun Wada Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;   Kafanchan Modern Market</a>
+                        <a className="footer_body">&bull;   Kafanchan Modern Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;  Millennium City Market</a>
+                        <a className="footer_body">&bull;  Millennium City Market</a>
                     </li>
                     
                     <li>
-                        <a className="text-gray-200 ">&bull;  Malali Neighborhood Centre</a>
+                        <a className="footer_body">&bull;  Malali Neighborhood Centre</a>
                     </li>
                     <li>
-                        <a className="text-gray-200">&bull;  Kawo Market</a>
+                        <a className="footer_body">&bull;  Kawo Market</a>
                     </li>
                     <li>
-                        <a className="text-gray-200 ">&bull;  Kasuwan Bacci</a>
+                        <a className="footer_body">&bull;  Kasuwan Bacci</a>
                     </li>
                     <li>
-                        <a className="text-gray-200">&bull;  Neighborhood Centre Zaria</a>
+                        <a className="footer_body">&bull;  Neighborhood Centre Zaria</a>
                     </li>
                     </nav>
                 </div>
@@ -123,12 +123,12 @@ function Footer() {
                     
                     <li>                       
                         <Link href={"/news"}>
-                            <a className="text-gray-200 hover:text-gray-400">&bull; Gov. El-Rufai - We Will Boost Economic Activities by Providing Modern Markets & Shopping Centres</a>                       
+                            <a className="footer_body hover:text-gray-400">&bull; Gov. El-Rufai - We Will Boost Economic Activities by Providing Modern Markets & Shopping Centres</a>                       
                         </Link>
                     </li>
                     <li>
                         <Link href={"/news"}>
-                            <a className="text-gray-200 hover:text-gray-400 text-clip">&bull; Invitation for Expression of Interest (EOI) for the Concession, Operation and Management of the Kaduna State Enterprise Zones (Trailer Parks)</a>
+                            <a className="footer_body hover:text-gray-400 text-clip">&bull; Invitation for Expression of Interest (EOI) for the Concession, Operation and Management of the Kaduna State Enterprise Zones (Trailer Parks)</a>
                         </Link>
                     </li>
                     </nav>
@@ -137,13 +137,22 @@ function Footer() {
                     <h2 className="footer_heading">Contact Details</h2>
                     <nav className="list-none mb-10 space-y-5 text-center">
                         <li>
-                            <a className="text-gray-200 "><LocationMarkerIcon className='w-5 h-5 mx-auto'/>First Floor, Investment House, 27 Ali Akilu Road, Kaduna.</a>
+                            <a className="footer_body ">
+                                <LocationMarkerIcon className='w-5 h-5 mx-auto'/>
+                                First Floor, Investment House, 27 Ali Akilu Road, Kaduna.
+                            </a>
                         </li>
                         <li>
-                            <a className="text-gray-200 "><PhoneIcon className='w-5 h-5 mx-auto'/>+234 903 787 3878</a>
+                            <a className="footer_body ">
+                                <PhoneIcon className='w-5 h-5 mx-auto'/>
+                                +234 903 787 3878
+                            </a>
                         </li>
                         <li>
-                            <a className="text-gray-200 "><FaEnvelope className='w-5 h-5 mx-auto'/>kaduna.markets@kdsg.gov.ng</a>
+                            <a className="footer_body ">
+                                <FaEnvelope className='w-5 h-5 mx-auto'/>
+                                kaduna.markets@kdsg.gov.ng
+                            </a>
                         </li>
                     </nav>
                 </div>
