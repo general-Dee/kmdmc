@@ -166,6 +166,9 @@ function Footer() {
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                    
                     <div className="flex item-center space-x-4">
+                        <a href={"https://kadunamarketjobs.roundstone.solutions/"} target={"_blank"} >
+                            <h1 className='admin_link'>Job Openings</h1>
+                        </a>
                         <a href={"https://alpha.kadunamarketsportal.com/login"} target={"_blank"} >
                             <h1 className='admin_link'>ERP</h1>
                         </a>

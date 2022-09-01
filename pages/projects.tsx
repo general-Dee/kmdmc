@@ -108,6 +108,7 @@ function projects() {
               </div>
             </div>
           </Link>
+          
           <Link href={"/projects/kasuwanmagani"}>
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
