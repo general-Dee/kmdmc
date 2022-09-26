@@ -51,6 +51,9 @@ export default function BasicMenu() {
         <Link href={"/news"}>
             <MenuItem onClick={handleClose}>News</MenuItem>
         </Link>
+        <Link href={"/publications"}>
+            <MenuItem onClick={handleClose}>Publications</MenuItem>
+        </Link>
         <Link href={"/projects"}>
             <MenuItem onClick={handleClose}>Projects</MenuItem>  
         </Link>

@@ -14,16 +14,34 @@ function About() {
         <section className="text-gray-600 body-font">
             <div  className="container px-5 py-24 mx-auto my-20 flex flex-col">
                 <div className="lg:w-4/6 mx-auto">
-                    <div className="rounded-lg h-84 overflow-hidden p-10 flex justify-center">
-                        <Image width={1200} height={500} priority alt="content" className="object-cover object-center h-full w-full" objectFit='cover' src="/img/about_index.jpg" />
-                    </div>
-                    <div className='ml-10'>
+                    <motion.div 
+                       initial= {{
+                        y: -80,
+                    opacity: .2
+                    }}
+                    transition= {{duration: .8}}
+                    whileInView= {{ opacity: 1, y: 0}}
+                    viewport= {{ once: true}}
+                    className="rounded-lg h-84 overflow-hidden p-10 flex justify-center">
+                        {/* <Image width={1200} height={500} priority alt="content" className="object-cover object-center h-full w-full" objectFit='cover' src="/img/about_index.jpg" /> */}
+                        <Image width={1200} height={500} priority alt="content" className="object-start h-full w-full rounded-lg" objectFit='cover' src="/img/about_index.jpg" />
+                    </motion.div>
+                    <motion.div 
+                    initial= {{
+                        x: -80,
+                    opacity: 0
+                    }}
+                    transition= {{duration: 1}}
+                    whileInView= {{ opacity: 1, x: 0}}
+                    viewport= {{ once: true}}
+                    className='ml-10'>
                         <h3 className='font-bold text-lg md:text-lg lg:text-xl'>Tamar Nandul</h3>
                         <p className='text-sm'>Managing Director / Chief Executive Officer </p>
-                    </div>
+                    </motion.div>
                     <div className="flex flex-col sm:flex-row mt-10">
                         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                            <div className="w-12 h-12 p-2 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                            <div
+                            className="w-12 h-12 p-2 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                                 <Image src="/logo.png" width={50} height={50} className="cursor-pointer sm:w-5 sm:h-5"/>
                             </div>
                             <div className="flex flex-col items-center text-center justify-center">

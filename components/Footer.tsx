@@ -138,19 +138,19 @@ function Footer() {
                     <nav className="list-none mb-10 space-y-5 text-center">
                         <li>
                             <a className="footer_body ">
-                                <LocationMarkerIcon className='w-5 h-5 mx-auto'/>
-                                First Floor, Investment House, 27 Ali Akilu Road, Kaduna.
+                                <LocationMarkerIcon className='w-5 h-5 mx-auto text-yellow-300 animate-pulse'/>
+                                Namabi Sambo Complex First Floor - Former Investment House, 27 Ali Akilu Road, Kaduna.
                             </a>
                         </li>
                         <li>
                             <a className="footer_body ">
-                                <PhoneIcon className='w-5 h-5 mx-auto'/>
+                                <PhoneIcon className='w-5 h-5 mx-auto text-yellow-300 animate-pulse'/>
                                 +234 903 787 3878
                             </a>
                         </li>
                         <li>
                             <a className="footer_body ">
-                                <FaEnvelope className='w-5 h-5 mx-auto'/>
+                                <FaEnvelope className='w-5 h-5 mx-auto text-yellow-300 animate-pulse'/>
                                 kaduna.markets@kdsg.gov.ng
                             </a>
                         </li>

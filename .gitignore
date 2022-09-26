@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# Sanity
+kmdmc/node_modules
+
 # production
 /build
 

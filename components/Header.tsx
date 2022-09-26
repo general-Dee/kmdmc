@@ -47,6 +47,7 @@ function Header() {
                 <Link href={'/about'}><li className="headerLink">About</li></Link>
                 <Link href={'/contact'}><li className="headerLink">Contact</li></Link>
                 <Link href={'/news'}><li className="headerLink">News</li></Link>
+                <Link href={'/publications'}><li className="headerLink">Publications</li></Link>
                 <Link href={'/projects'}><li className="headerLink">Projects</li></Link>
                 <Link href={'/gallery'}><li className="headerLink">Gallery</li></Link>
             </ul>

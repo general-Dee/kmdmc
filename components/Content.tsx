@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { motion } from 'framer-motion'
 
 function Content() {
   return (
@@ -14,48 +14,82 @@ function Content() {
                 <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 23 projects across Kaduna and over $30 million in assets in 2021. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi Market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
                 </div>
                 {/* <div className="flex flex-wrap -m-4 relative"> */}
-                <div className="flex flex-wrap -m-4 relative cursor-pointer">
+                <motion.div
+                transition= {{staggerChildern: 0.1}}
+                className="flex flex-wrap -m-4 relative cursor-pointer">
                     <Link href={"/projects/galaxymall"}>
-                        <div className="xl:w-1/4 md:w-1/2 p-4 ">
+                        <motion.div
+                        initial= {{
+                            scale: 0.75,
+                        opacity: 0
+                        }}
+                        transition= {{duration: .5}}
+                        whileInView= {{ opacity: 1, scale: 1}}
+                        viewport= {{ once: true}} 
+                        className="xl:w-1/4 md:w-1/2 p-4 ">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <Image width={720} height={400} className="h-40 rounded w-fulChikun LGAGl object-cover object-center mb-6" src="/img/galaxymall/2.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Galaxy Mall</h2>
                             <p className="leading-relaxed text-base">Newly constructed mall containing 3 cinemas, 6 restaurants. 48-line shops with over 360 nos.</p>
                             </div>
-                        </div> 
+                        </motion.div> 
                     </Link>
                     <Link href={"/projects/olarm"}>
-                        <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                        <motion.div 
+                        initial= {{
+                            scale: 0.75,
+                        opacity: 0
+                        }}
+                        transition= {{duration: .7}}
+                        whileInView= {{ opacity: 1, scale: 1}}
+                        viewport= {{ once: true}} 
+                        className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/olarm/7.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Chikun LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farms Trailer Park and Grains Market</h2>
                             <p className="leading-relaxed text-base">Parking Bays for 120 trailers, Grains Market, Travelers Inn, Food Court, Warehouses and Mechanic Workshops.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </Link>
                     <Link href={"/projects/kasuwanmagani"}>
-                        <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                        <motion.div 
+                        initial= {{
+                            scale: 0.75,
+                        opacity: 0
+                        }}
+                        transition= {{duration: .9}}
+                        whileInView= {{ opacity: 1, scale: 1}}
+                        viewport= {{ once: true}} 
+                        className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/kasuwanmagani/10.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kajuru LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Kasuwan Magani</h2>
                             <p className="leading-relaxed text-base">Sales of Shops, Stalls, Warehouses and Restaurants totalling 6,546 units.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </Link>
                     <Link href={"/projects/ugwanrimi"}>
-                        <div className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+                        <motion.div 
+                        initial= {{
+                            scale: 0.75,
+                        opacity: 0
+                        }}
+                        transition= {{duration: 1.1}}
+                        whileInView= {{ opacity: 1, scale: 1}}
+                        viewport= {{ once: true}} 
+                        className="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                                 <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/ugwanrimi/1.jpg" alt="content"/>
                                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Ugwanrimi Market</h2>
                                 <p className="leading-relaxed text-base">Commercial hub that is in line with KDSG's urban renewal agenda. It contains 1340 shops of different sqm sizes, warehouses, restrooms and car parking space.</p>
                             </div>
-                        </div>
+                        </motion.div>
                     </Link>
-                </div>
+                </motion.div>
              </div>
         </section>
   )
