@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { motion } from 'framer-motion'
 // import Team from '../components/Team'
 
 function Team() {
@@ -8,12 +8,28 @@ function Team() {
 
     <section className="text-gray-600 body-font">
       <div className="container px-5 pb-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
+        <motion.div
+        initial= {{
+          x: -80,
+          opacity: .2
+          }}
+          transition= {{duration: .4}}
+          whileInView= {{ opacity: 1, x: 0}}
+          viewport= {{ once: true}}
+        className="flex flex-col text-center w-full mb-20">
           <h1 className="text-2xl font-medium title-font mb-4 text-gray-900">MANAGEMENT TEAM</h1>
           {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> */}
-        </div>
+        </motion.div>
         <div className="flex flex-wrap -m-4">
-          <div className="p-4 mx-auto lg:w-1/3 md:w-1/2">
+          <motion.div 
+           initial= {{
+            y: -80,
+            opacity: .2
+            }}
+            transition= {{duration: .6}}
+            whileInView= {{ opacity: 1, y: 0}}
+            viewport= {{ once: true}}
+          className="p-4 mx-auto lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <Image src="/img/md2.jpg" width={500} height={240} alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"/>
               <div className="w-full">
@@ -29,8 +45,16 @@ function Team() {
                 </span>
               </div>
             </div>
-          </div>
-          <div className="p-4 mx-auto lg:w-1/3 md:w-1/2">
+          </motion.div>
+          <motion.div 
+            initial= {{
+            y: -80,
+            opacity: .2
+            }}
+            transition= {{duration: 1}}
+            whileInView= {{ opacity: 1, y: 0}}
+            viewport= {{ once: true}}
+          className="p-4 mx-auto lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <Image src="/img/cs.jpg" width={500} height={240} alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"/>
               <div className="w-full">
@@ -46,8 +70,16 @@ function Team() {
                 </span>
               </div>
             </div>
-          </div>
-          <div className="p-4 mx-auto lg:w-1/3 md:w-1/2">
+          </motion.div>
+          <motion.div 
+          initial= {{
+            y: -80,
+            opacity: 0
+            }}
+            transition= {{duration: 1.4}}
+            whileInView= {{ opacity: 1, y: 0}}
+            viewport= {{ once: true}}
+          className="p-4 mx-auto lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <Image src="/img/gm.jpg" width={500} height={240} alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"/>
               <div className="w-full">
@@ -62,7 +94,7 @@ function Team() {
                 </span>
               </div>
             </div>
-          </div>          
+          </motion.div>          
         </div>
       </div>
     </section>

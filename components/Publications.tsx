@@ -17,7 +17,7 @@ function Publications({}: Props) {
 
 <section className="text-gray-600 body-font h-screen mt-20 mb-40">
   <div className="container px-5 py-24 mx-auto">
-    <h1 className='text-2xl my-10  lg:my-20 text-center font-black tracking-[4px] lg:text-5xl lg:tracking-[8px]'>Official Publications</h1>
+    <h1 className='text-2xl my-10  lg:my-20 text-center font-black tracking-[4px] lg:text-5xl lg:tracking-[8px] font-serif'>Official Publications</h1>
     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
       <motion.div 
         initial= {{

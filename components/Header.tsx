@@ -50,6 +50,7 @@ function Header() {
                 <Link href={'/publications'}><li className="headerLink">Publications</li></Link>
                 <Link href={'/projects'}><li className="headerLink">Projects</li></Link>
                 <Link href={'/gallery'}><li className="headerLink">Gallery</li></Link>
+                <Link href={'https://kadunamarketjobs.roundstone.solutions'}><li className="headerLink">Job Openings</li></Link>
             </ul>
         </div>    
 

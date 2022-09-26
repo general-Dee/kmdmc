@@ -60,6 +60,9 @@ export default function BasicMenu() {
         <Link href={"/gallery"}>
             <MenuItem onClick={handleClose}>Gallery</MenuItem>  
         </Link>
+        <Link href={"/https://kadunamarketjobs.roundstone.solutions"}>
+            <MenuItem onClick={handleClose}>Job Openings</MenuItem>  
+        </Link>
       </Menu>
     </div>
   )
