@@ -17,7 +17,7 @@
 
 @layer components {
     .headerLink {
-        @apply cursor-pointer text-lg font-light py-8 px-4 text-[#e5e5e5] hover:text-[#b3b3b3] transition duration-[.4s] ;
+        @apply cursor-pointer text-lg font-light py-8 px-4 text-gray-300 hover:text-[#fff] hover:scale-110 transition duration-[.4s] ;
     }
 
     .socialLink {

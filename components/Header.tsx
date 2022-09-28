@@ -35,7 +35,7 @@ function Header() {
   
   return (
     <header className={`${isScrolled && "scrolledHeader"}`}>
-        <div className="flex space-x-12 bg-black/40 rounded-xl md:mr-6">
+        <div className="relative flex space-x-12 bg-black/40 rounded-xl md:mr-6">
             <motion.div variants={logo} className="bg-white rounded-xl hover:bg-slate-400 transition duration-[.4s] sm:p-0">
               <Link href={"/"}>
                 <Image src="/logo.png" width={60} height={70} className="cursor-pointer sm:w-5 sm:h-5 "/>
@@ -45,12 +45,12 @@ function Header() {
             <ul className="hidden space-x-5 md:flex item-center">
                 <Link href={'/'}><li className="headerLink">Home</li></Link>
                 <Link href={'/about'}><li className="headerLink">About</li></Link>
-                <Link href={'/contact'}><li className="headerLink">Contact</li></Link>
                 <Link href={'/news'}><li className="headerLink">News</li></Link>
                 <Link href={'/publications'}><li className="headerLink">Publications</li></Link>
                 <Link href={'/projects'}><li className="headerLink">Projects</li></Link>
                 <Link href={'/gallery'}><li className="headerLink">Gallery</li></Link>
-                <Link href={'https://kadunamarketjobs.roundstone.solutions'}><li className="headerLink">Job Openings</li></Link>
+                <a href={'https://kadunamarketjobs.roundstone.solutions'} target={"_blank"}><li className="headerLink">Careers</li></a>
+                <Link href={'/contact'}><li className="headerLink">Contact</li></Link>
             </ul>
         </div>    
 

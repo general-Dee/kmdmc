@@ -27,7 +27,7 @@ function news() {
                 <span className="font-semibold title-font text-gray-700">MD / CEO's Speech</span>
                 <span className="mt-1 text-gray-500 text-sm">17th September 2022</span>
               </div>
-              <div className="md:flex-grow">
+              <div className="md:flex-grow h-40 overflow-y-scroll !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-gray-600">
                 <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Managing Director/CEO Tamar Nandul’s Speech at the Presentation of Mortgage Beneficiaries to His Excellency, Governor Nasir Elrufai</h2>
                 <p className="leading-relaxed ">Good morning Your Excellency, The Governor, The Administrator,Kaduna Capital Territory Authority, Honourable Commissioners, Special Advisers, Members of the Sale of Shops Project Steering Committee, our development partners, members of various market unions, the media, ladies and gentlemen.
 We are pleased to be gathered today to signify the fulfilment of one of His Excellency, Governor Nasir Elrufai’s remarkable commitments to traders across Kaduna State.

@@ -45,9 +45,6 @@ export default function BasicMenu() {
         <Link href={"/about"}>
             <MenuItem onClick={handleClose}>About</MenuItem>
         </Link>
-        <Link href={"/contact"}>
-            <MenuItem onClick={handleClose}>Contact</MenuItem>
-        </Link>
         <Link href={"/news"}>
             <MenuItem onClick={handleClose}>News</MenuItem>
         </Link>
@@ -61,7 +58,10 @@ export default function BasicMenu() {
             <MenuItem onClick={handleClose}>Gallery</MenuItem>  
         </Link>
         <Link href={"/https://kadunamarketjobs.roundstone.solutions"}>
-            <MenuItem onClick={handleClose}>Job Openings</MenuItem>  
+            <MenuItem onClick={handleClose}>Careers</MenuItem>  
+        </Link>
+        <Link href={"/contact"}>
+            <MenuItem onClick={handleClose}>Contact</MenuItem>
         </Link>
       </Menu>
     </div>

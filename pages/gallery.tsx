@@ -41,7 +41,7 @@ function gallery() {
       whileInView= {{ opacity: 1, x: 0}}
       viewport= {{ once: true}}
     className="flex w-full mb-20 flex-wrap">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">COMMISSIONING OF COMPLETED PROJECTS </h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-600 lg:w-1/3 lg:mb-0 mb-4">COMMISSIONING OF COMPLETED PROJECTS </h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">President Muhammadu Buhari during a working visit to Kaduna state in January 2022 commissioned the newly remodeled Murtala Muhammed Square and Sabon Gari Modern Market in Zaria</p>
     </motion.div>
     <motion.div 
@@ -90,7 +90,7 @@ function gallery() {
       whileInView= {{ opacity: 1, x: 0}}
       viewport= {{ once: true}}
     className="flex w-full mb-20 flex-wrap">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">TRADE FAIR </h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-600 lg:w-1/3 lg:mb-0 mb-4">TRADE FAIR </h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">KMDMC organized a Trade Fair on 1st and 2nd July 2022 at Murtala Muhammed Square in line with our commitment to provide safe and conducive environment for trading activities to thrive in Kaduna state.</p>
     </motion.div>
     <motion.div 
@@ -139,7 +139,7 @@ function gallery() {
       whileInView= {{ opacity: 1, x: 0}}
       viewport= {{ once: true}}
     className="flex w-full mb-20 flex-wrap">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">SITE INSPECTION</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-600 lg:w-1/3 lg:mb-0 mb-4">SITE INSPECTION</h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">KMDMC’s team inspecting various market development projects across Kaduna, Zaria and Kafanchan.</p>
     </motion.div>
     <motion.div 
@@ -188,7 +188,7 @@ function gallery() {
       whileInView= {{ opacity: 1, x: 0}}
       viewport= {{ once: true}}
     className="flex w-full mb-20 flex-wrap">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">KADUNA AT 55 Children’s Day March Past</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-600 lg:w-1/3 lg:mb-0 mb-4">KADUNA AT 55 Children’s Day March Past</h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">KMDMC hosted the annual Children’s Day March Past at Murtala Muhammed Square which also coincided with the KADUNA AT 55 celebrations. His Excellency, Mallam Nasir Ahmad El-Rufai alongside other senior KDSG officials were in attendance.</p>
     </motion.div>
     <motion.div 
@@ -237,7 +237,7 @@ function gallery() {
       whileInView= {{ opacity: 1, x: 0}}
       viewport= {{ once: true}}
     className="flex w-full mb-20 flex-wrap">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">STAKEHOLDER ENGAGEMENT</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-600 lg:w-1/3 lg:mb-0 mb-4">STAKEHOLDER ENGAGEMENT</h1>
       <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">In line with our stakeholder relations approach, KMDMC regularly engages relevant stakeholders such as market unions, religious and traditional title holders to foster developments in our communities.</p>
     </motion.div>
     <motion.div 
