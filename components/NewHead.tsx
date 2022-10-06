@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import BasicMenu from './BasicMenu'
 
 
 type Props = {}
@@ -27,7 +28,8 @@ function NewHead({}: Props) {
     },[])
   return (
     <header className="text-gray-600 body-font">
-    <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    
+    <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <motion.div
             initial= {{
@@ -43,26 +45,27 @@ function NewHead({}: Props) {
               </Link>
             </motion.div>
       </a>
-      <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center bg-slate-800 bg-opacity-40 rounded-lg">
-      <motion.ul 
-            initial= {{
-              x: -80,
-              opacity: .2
-              }}
-              transition= {{duration: .8}}
-              whileInView= {{ opacity: 1, x: 0}}
-              viewport= {{ once: true}}
-            className="space-x-5 flex item-center px-1">
-                <Link href={'/'}><li className="headerLink">Home</li></Link>
-                <Link href={'/about'}><li className="headerLink">About</li></Link>
-                <Link href={'/news'}><li className="headerLink">News</li></Link>
-                <Link href={'/publications'}><li className="headerLink">Publications</li></Link>
-                <Link href={'/projects'}><li className="headerLink">Projects</li></Link>
-                <Link href={'/gallery'}><li className="headerLink">Gallery</li></Link>
-                <a href={'https://kadunamarketjobs.roundstone.solutions'} target={"_blank"}><li className="headerLink">Careers</li></a>
-                <Link href={'/contact'}><li className="headerLink">Contact</li></Link>
+      <BasicMenu />
+      <nav className="hidden md:ml-auto lg:flex flex-wrap items-center text-base justify-center bg-slate-800 bg-opacity-40 rounded-lg">
+            <motion.ul 
+                initial= {{
+                x: -80,
+                opacity: .2
+                }}
+                transition= {{duration: .8}}
+                whileInView= {{ opacity: 1, x: 0}}
+                viewport= {{ once: true}}
+                className="space-x-4 flex item-center px-1">
+                    <Link href={'/'}><li className="headerLink">Home</li></Link>
+                    <Link href={'/about'}><li className="headerLink">About</li></Link>
+                    <Link href={'/news'}><li className="headerLink">News</li></Link>
+                    <Link href={'/publications'}><li className="headerLink">Publications</li></Link>
+                    <Link href={'/projects'}><li className="headerLink">Projects</li></Link>
+                    <Link href={'/gallery'}><li className="headerLink">Gallery</li></Link>
+                    <a href={'https://kadunamarketjobs.roundstone.solutions'} target={"_blank"}><li className="headerLink">Careers</li></a>
+                    <Link href={'/contact'}><li className="headerLink">Contact</li></Link>
             </motion.ul>
-            <div className="hidden lg:flex item-center p-6 space-x-4 mr-6">
+        <div className="hidden lg:flex item-center p-6 space-x-4 mr-6">
             <a href={"https://twitter.com/KadunaMarkets"} target={"_blank"}>
               <FaTwitter className= "socialLink" />
             </a>
@@ -77,6 +80,7 @@ function NewHead({}: Props) {
         </div>
       </nav>
       
+    
     </div>
   </header>
   )

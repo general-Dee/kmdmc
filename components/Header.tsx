@@ -56,7 +56,7 @@ function Header() {
               transition= {{duration: .8}}
               whileInView= {{ opacity: 1, x: 0}}
               viewport= {{ once: true}}
-            className="hidden space-x-5 md:flex item-center">
+            className="md:hidden space-x-5 md:flex item-center">
                 <Link href={'/'}><li className="headerLink">Home</li></Link>
                 <Link href={'/about'}><li className="headerLink">About</li></Link>
                 <Link href={'/news'}><li className="headerLink">News</li></Link>

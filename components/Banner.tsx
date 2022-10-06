@@ -20,14 +20,15 @@ function Banner({bannerImages}: Props) {
   }, [bannerImages])
 
   return (
-    <div className='max-w-4xl overflow-x-hidden flex flex-col over'>      
-      <div className='absolute top-0 left-0 -z-6 h-[95vh] w-screen'>
+    // <div className='max-w-4xl overflow-x-hidden flex flex-col over'>      
+    <div className='max-w-4xl overflow-x-hidden flex flex-col cover'>      
+      <div className='absolute top-0 left-0 -z-6 h-[95vh] w-full'>
         <Image
         priority 
         src= {`/${bannerImg ? bannerImg.img : ""}`}
         layout= 'fill'
         objectFit='cover'
-        // className="-z-8 lg:h-[600px]"
+        className="-z-8 lg:h-[600px]"
         /> 
       </div>
 
