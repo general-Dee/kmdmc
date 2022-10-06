@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 type Props = {}
 
@@ -14,10 +15,18 @@ function Video({}: Props) {
         //         </div>
         //     </div>
         // </section>
-        <section className='flex flex-con justify-center space-y-5  my-24 py-24'>
+        <motion.section
+        initial= {{
+            y: -80,
+        opacity: .2
+        }}
+        transition= {{duration: .8}}
+        whileInView= {{ opacity: 1, y: 0}}
+        viewport= {{ once: true}}
+        className='flex flex-con justify-center space-y-5  my-24 py-24'>
             {/* <h1 className="text-xl font-medium title-font mb-4 text-gray-900">End of Year Message (2019)</h1> */}
             <iframe width="700" height="350" src="https://www.youtube.com/embed/-sscEwLauyk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </section>
+        </motion.section>
   )
 }
 
