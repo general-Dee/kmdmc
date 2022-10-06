@@ -41,7 +41,7 @@ function Banner({bannerImages}: Props) {
         whileInView= {{ opacity: 1, x: 0}}
         viewport= {{ once: true}}
       className="z-10 ml-8 pb-20 md:pb-10 h-[80vh] ">
-        <div className='p-5 mt-60 bg-slate-800 w-[50%] md:w-[75%] lg:w-[76%] bg-opacity-40 rounded-lg'>
+        <div className='p-5 mt-80 bg-slate-800 w-[50%] md:w-[75%] lg:w-[76%] bg-opacity-40 rounded-lg'>
           <h1  className='font-bold text-shadow-md pt-10 pb-5 text-xl text-white md:text-2xl lg:text-4xl opacity-100'>
             {`${bannerImg?.title }`}
           </h1>
