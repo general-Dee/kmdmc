@@ -55,6 +55,8 @@ function Contact_sec() {
             viewport= {{ once: true}} 
             className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             {/* <Image width="100%" height="100%" src="/map_image.PNG" className='absolute top-0 left-0 w-full h-full'/> */}
+            {/* <iframe width="700" height="350" src="https://www.youtube.com/embed/-sscEwLauyk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+
                 <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                     <div className="lg:w-1/2 px-6">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>

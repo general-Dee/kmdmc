@@ -10,9 +10,9 @@ import Header from '../components/Header'
 import MenuNav from '../components/BasicMenu'
 import { bannerImgs } from '../data/bannerImages'
 import { motion } from 'framer-motion'
-import { homeContainer } from '../components/Animations'
 import Statements from '../components/Statements'
 import Selling_points from '../components/Selling_points'
+import Video from '../components/Video'
 // import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
@@ -27,10 +27,7 @@ interface Props{
 const Home = () => {
   return (
     <motion.div className="h-screen bg-gradient-to-b lg:h-[140vh]" 
-    variants={homeContainer} 
-    initial='hidden' 
-    animate='show' 
-    exit='hide'>
+    >
       <Head>
         <title>Home &nbsp;|&nbsp; KMDMC</title>
         <link rel="icon" href="/logo.png" />
@@ -47,6 +44,8 @@ const Home = () => {
              <Content />
              {/* Features */}
              <Features />
+             {/* Video Section */}
+             <Video />
              {/* Contact section */}
              <Contact_sec />
              {/* Footer */}

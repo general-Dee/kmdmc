@@ -3,7 +3,6 @@ import {useState , useEffect} from 'react'
 import Image from "next/image"
 import { InformationCircleIcon } from '@heroicons/react/solid'
 import { motion } from 'framer-motion'
-import { bannerText } from '../components/Animations'
 import Link from 'next/link'
 
 
@@ -33,7 +32,15 @@ function Banner({bannerImages}: Props) {
       </div>
 
       {/* absolute top-[20vh] md:top-30 sm:top-20 */}
-      <motion.div variants={ bannerText } className="z-10 md:pb-10 sm:pb-20 h-[80vh] ">
+      <motion.div 
+      initial= {{
+        x: -80,
+        opacity: .2
+        }}
+        transition= {{duration: .4}}
+        whileInView= {{ opacity: 1, x: 0}}
+        viewport= {{ once: true}}
+      className="z-10 md:pb-10 sm:pb-20 h-[80vh] ">
         <div className='p-5 mt-40 bg-slate-800 w-[50%] md:w-[75%] lg:w-[76%] bg-opacity-40 rounded-lg'>
           <h1  className='font-bold text-shadow-md pt-10 pb-5 text-xl text-white md:text-2xl lg:text-4xl opacity-100'>
             {`${bannerImg?.title }`}
