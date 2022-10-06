@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Header from './Header'
+import NewHead from './NewHead';
 // import {olarmImages} from "../data/olarmImages"
 
 function Gallery({ olarmImages: [] }) {
@@ -13,7 +13,7 @@ function Gallery({ olarmImages: [] }) {
   console.log(olarmImages)
   return (
     <>
-      <Header />
+       <NewHead />
       <ul>
        
       </ul>

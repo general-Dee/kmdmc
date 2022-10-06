@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import Footer from './Footer'
-import Header from './Header'
 import { useState } from 'react'
 import { db } from '../firebase'
 import { addDoc, collection, onSnapshot } from 'firebase/firestore'
 import { toast } from 'react-toastify'
 import Link from 'next/link'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import NewHead from './NewHead'
 // import { Firestore } from 'firebase/firestore'
 
 interface newStuff {
@@ -65,7 +65,7 @@ function Contact() {
         // <div>Contact</div>
         // <section className="text-gray-600 body-font relative">
         <>
-            <Header />
+             <NewHead />
             <div className='w-screen h-[10vh]'></div>
 
             <section className="text-gray-600 relative">

@@ -1,15 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import NewHead from '../components/NewHead'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
-import Project from '../components/Project'
 import { motion } from 'framer-motion'
 
 function projects() {
   return (
     <>
-        <Header />
+         <NewHead />
         <div className='w-screen h-[10vh] sm:h-[5vh]'> </div>
         {/* <motion.div variants={projects}> */}
           <section className="text-gray-600 body-font" >

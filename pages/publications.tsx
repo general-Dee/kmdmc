@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/Header'
+import NewHead from '../components/NewHead'
 import Publications from '../components/Publications'
 
 
@@ -14,7 +14,7 @@ function publications({}: Props) {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-        <Header/>
+        <NewHead />
         <Publications />
     </>
   )

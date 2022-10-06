@@ -3,6 +3,8 @@ import Head from 'next/head'
 // import News from '../components/News'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import NewHead from '../components/NewHead'
+import { motion } from 'framer-motion'
 
 function news() {
   return (
@@ -13,8 +15,8 @@ function news() {
 
       </Head>
 
-      <Header />
-      {/* <div className='w-screen h-[2vh]'></div> */}
+      <NewHead />
+      <div className='w-screen h-[5vh] lg:h-[8vh]'></div>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
         <div className="my-20 w-full ">
@@ -22,7 +24,15 @@ function news() {
           <div className="w-[100px] p-[3px] bg-black"></div>
         </div>
 
-        <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <motion.div 
+        initial= {{
+          y: 80,
+          opacity: 0
+          }}
+          transition= {{duration: 1}}
+          whileInView= {{ opacity: 1, y: 0}}
+          viewport= {{ once: true}}
+        className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-gray-700">MD / CEO's Speech</span>
                 <span className="mt-1 text-gray-500 text-sm">17th September 2022</span>
@@ -44,8 +54,16 @@ We sincerely extend our appreciation to everyone who has supported the implement
 Today we have here with us, 25 beneficiaries, 17 beneficiaries of the Sterling Bank mortgage for the Sheikh Abubakar Gumi Market as well as 8 beneficiaries of the Jaiz Bank mortgage and KADSWEF from Kawo Market, whose shops have been fully financed as promised by His Excellency, The Governor. I want to congratulate them, they are the latest property owners in Kaduna State.
 This process is being replicated across our markets and we will continue to ensure transparency and fairness in the sale of shops across markets in Kaduna State. </p>
               </div>
-            </div>
-        <div className="py-8 flex flex-wrap md:flex-nowrap">
+            </motion.div>
+        <motion.div 
+         initial= {{
+          y: 80,
+          opacity: 0
+          }}
+          transition= {{duration: 1}}
+          whileInView= {{ opacity: 1, y: 0}}
+          viewport= {{ once: true}}
+        className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-gray-700">INSPECTION</span>
                 <span className="mt-1 text-gray-500 text-sm">22nd July 2022</span>
@@ -60,8 +78,16 @@ This process is being replicated across our markets and we will continue to ensu
                   </svg>
                 </a> */}
               </div>
-            </div>
-        <div className="py-8 flex flex-wrap md:flex-nowrap">
+            </motion.div>
+        <motion.div 
+         initial= {{
+          y: 80,
+          opacity: 0
+          }}
+          transition= {{duration: 1}}
+          whileInView= {{ opacity: 1, y: 0}}
+          viewport= {{ once: true}}
+        className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-gray-700">CONTRACT</span>
                 <span className="mt-1 text-gray-500 text-sm">15th July 2022</span>
@@ -76,9 +102,17 @@ This process is being replicated across our markets and we will continue to ensu
                   </svg>
                 </a> */}
               </div>
-            </div>
+            </motion.div>
 
-        <div className="py-8 flex flex-wrap md:flex-nowrap">
+        <motion.div 
+         initial= {{
+          y: 80,
+          opacity: 0
+          }}
+          transition= {{duration: 1}}
+          whileInView= {{ opacity: 1, y: 0}}
+          viewport= {{ once: true}}
+        className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-gray-700">EVENT</span>
                 <span className="mt-1 text-gray-500 text-sm">1st & 2nd July 2022</span>
@@ -93,9 +127,17 @@ This process is being replicated across our markets and we will continue to ensu
                   </svg>
                 </a> */}
               </div>
-            </div>
+            </motion.div>
 
-            <div className="py-8 flex flex-wrap md:flex-nowrap">
+            <motion.div 
+             initial= {{
+              y: 80,
+              opacity: 0
+              }}
+              transition= {{duration: 1}}
+              whileInView= {{ opacity: 1, y: 0}}
+              viewport= {{ once: true}}
+            className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-gray-700">SALES</span>
                 <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
@@ -110,9 +152,17 @@ This process is being replicated across our markets and we will continue to ensu
                   </svg>
                 </a> */}
               </div>
-            </div>
+            </motion.div>
 
-          <div className="-my-8 divide-y-2 divide-gray-100">
+          <motion.div 
+           initial= {{
+            y: 80,
+            opacity: 0
+            }}
+            transition= {{duration: 1}}
+            whileInView= {{ opacity: 1, y: 0}}
+            viewport= {{ once: true}}
+          className="-my-8 divide-y-2 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-gray-700">EXECUTIVE ADDRESS</span>
@@ -130,7 +180,7 @@ This process is being replicated across our markets and we will continue to ensu
               </div>
             </div>
                        
-          </div>
+          </motion.div>
         </div>
       </section>
       <div className='w-screen h-[20vh]'></div>

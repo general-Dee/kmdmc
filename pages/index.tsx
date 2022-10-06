@@ -13,6 +13,7 @@ import { motion } from 'framer-motion'
 import Statements from '../components/Statements'
 import Selling_points from '../components/Selling_points'
 import Video from '../components/Video'
+import NewHead from '../components/NewHead'
 // import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
@@ -33,7 +34,8 @@ const Home = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
       
-      <Header />
+      {/* <Header /> */}
+      <NewHead />
       <main className='relative pl-4 lg:space-y-24 lg:pl-16'>
            <Banner bannerImages={ bannerImgs }/>
            <section className='absolute left-0 space-y-16'>

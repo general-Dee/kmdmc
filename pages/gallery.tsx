@@ -1,11 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react'
 import Head from 'next/head'
-import Gallery from '../components/Gallery'
-import Dash_header from '../components/Dash_header'
 import { motion } from 'framer-motion'
-import Header from '../components/Header'
 import Image from 'next/image'
 import Footer from '../components/Footer'
+import NewHead from '../components/NewHead'
 // import { olarmImages } from "../data/olarmImages.json
 // import { olarmImgs } from '../data/olarmImages'
 
@@ -27,8 +25,8 @@ function gallery() {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <Header/>
-      <div className="h-40"></div>
+      <NewHead />
+      <div className="h-80 lg:h-60"></div>
       <div className='flex flex-col md:space-y-20 lg:space-y-80 '>
        <section className="text-gray-600 body-font">
         <div className="container h-screen px-5 mx-auto">
@@ -278,7 +276,7 @@ function gallery() {
 
 </div>
 
-{/* <div className='h-40'></div> */}
+<div className='h-40'></div>
 <Footer />
     </>
   )

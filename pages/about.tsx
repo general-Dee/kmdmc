@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import About from '../components/About'
-import Header from '../components/Header'
+// import Header from '../components/Header'
+import NewHead from '../components/NewHead'
 
 
 
@@ -12,7 +13,7 @@ function about() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div>
-        <Header />
+      <NewHead />
 
         <About />
 
