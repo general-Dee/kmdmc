@@ -1,6 +1,5 @@
-import React from 'react'
+import NewHead from '../../components/NewHead'
 import Footer from '../../components/Footer'
-import Header from '../../components/Header'
 import { useRecoilState } from 'recoil'
 import { modalState } from '../../atoms/Atom'
 import Image from 'next/image'
@@ -10,7 +9,7 @@ function gallaxymall() {
 
   return (
     <>
-    <Header />
+    <NewHead />
 
       <section className="text-gray-600 body-font mt-20">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">

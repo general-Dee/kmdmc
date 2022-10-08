@@ -1,12 +1,12 @@
+import NewHead from '../../components/NewHead'
 import Image from 'next/image'
-import React from 'react'
 import Footer from '../../components/Footer'
-import Header from '../../components/Header'
 
 function kasuwanmagani() {
   return (
     <>
-    <Header />
+        <NewHead />
+
     <div className="h-[20vh]"></div>
       <section className="text-gray-600 body-font mt-20">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
