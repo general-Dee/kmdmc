@@ -5,7 +5,7 @@ import { HiLightningBolt } from 'react-icons/hi'
 
 function Selling_points() {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font my-20">
         <motion.div 
         initial= {{
             y: -20,

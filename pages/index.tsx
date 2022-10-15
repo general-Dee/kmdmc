@@ -14,6 +14,7 @@ import Statements from '../components/Statements'
 import Selling_points from '../components/Selling_points'
 import Video from '../components/Video'
 import NewHead from '../components/NewHead'
+import Banner02 from '../components/Banner02'
 // import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
@@ -36,9 +37,10 @@ const Home = () => {
       
       {/* <Header /> */}
       <NewHead />
-      <main className='relative pl-4 lg:space-y-24 lg:pl-16'>
-           <Banner bannerImages={ bannerImgs }/>
-           <section className='absolute left-0 space-y-16'>
+      {/* <main className='relative pl-4 lg:space-y-24 lg:pl-16'> */}
+      <Banner02/>
+      <main className='max-w-screen-2xl mx-auto overflow-x-hidden'>
+           {/* <Banner bannerImages={ bannerImgs }/> */}
             <Statements />
              {/* Content section */}
              <Selling_points />
@@ -52,9 +54,8 @@ const Home = () => {
              <Contact_sec />
              {/* Footer */}
              <div className='w-screen h-[10vh]'></div>
-             <Footer />
-           </section>
       </main>
+      <Footer />
     </motion.div>
   )
 }
