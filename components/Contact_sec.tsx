@@ -43,7 +43,7 @@ function Contact_sec() {
     }
     
   return (
-        <section className="text-gray-600 body-font relative">
+        <section className="text-gray-600 body-font my-10">
         <div className="container px-5 pt-24 pb-0 mx-auto flex sm:flex-nowrap flex-wrap">
             <motion.div 
             initial= {{
