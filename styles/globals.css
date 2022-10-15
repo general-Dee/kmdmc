@@ -34,7 +34,7 @@
     }
 
     .bannerBtn {
-        @apply flex items-center justify-center bg-white text-black rounded-lg gap-x-2 px-7 py-1.5 mt-6 text-sm font-semibold hover:opacity-80 transition duration-[.3s]  
+        @apply flex items-center justify-center bg-white text-black rounded-lg gap-x-1 md:gap-x-2 px-3 lg:px-7 py-1.5 mt-6 text-sm font-semibold hover:opacity-80 transition duration-[.3s]  
     }
 
     .footerSocialLink {

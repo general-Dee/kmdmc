@@ -20,6 +20,7 @@ module.exports = {
     },
   },
   plugins: [
+    require('@tailwindcss/aspect-ratio'),
     require('tailwindcss-textshadow'),
     require('tailwind-scrollbar-hide'),
     require('tailwind-scrollbar')
