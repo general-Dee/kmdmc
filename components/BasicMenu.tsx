@@ -18,7 +18,7 @@ export default function BasicMenu() {
   }
 
   return (
-    <div className="md:!hidden bg-slate-800 bg-opacity-40 rounded-lg">
+    <div className="lg:!hidden bg-slate-800 bg-opacity-40 rounded-lg">
       <Button
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}
