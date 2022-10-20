@@ -6,7 +6,7 @@
 @layer base{
     body{
         /* @apply bg-[#1f1f1f] ; */
-        @apply bg-white sm:overflow-x-hidden !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-900;
+        @apply bg-gray-50 sm:overflow-x-hidden !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-900;
     }
 
     header{

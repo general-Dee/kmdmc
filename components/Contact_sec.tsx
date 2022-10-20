@@ -60,7 +60,7 @@ function Contact_sec() {
                 <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                     <div className="lg:w-1/2 px-6">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                    <p className="mt-1">Namabi Sambo Complex First Floor - Former Investment House, 27 Ali Akilu Road, Kaduna.</p>
+                    <p className="mt-1">Namadi Sambo Complex First Floor - Former Investment House, 27 Ali Akilu Road, Kaduna.</p>
                     </div>
                     <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
