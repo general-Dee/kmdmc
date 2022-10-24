@@ -28,7 +28,7 @@ interface Props{
 
 const Home = () => {
   return (
-    <motion.div className="h-screen bg-gradient-to-b lg:h-[140vh] bg-gray-100" 
+    <motion.div className="h-screen bg-gradient-to-b lg:h-[140vh] " 
     >
       <Head>
         <title>Home &nbsp;|&nbsp; KMDMC</title>

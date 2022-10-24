@@ -13,6 +13,10 @@
         @apply fixed w-full lg:px-2 lg:py-2 top-0 flex z-50 items-center justify-between transition-all md:px-5 lg:px-10
     }
 
+    .tradefair_container{
+        @apply flex h-screen w-full bg-green-50
+    }
+
 }
 
 @layer components {

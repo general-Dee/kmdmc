@@ -16,67 +16,67 @@ function Banner02() {
                 interval={5000}
             >
                 <div className=''>
-                    <Image loading="lazy" src="/img/banner/1.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/1.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/2.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/2.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/2.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/3.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/3.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/3.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/4.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/4.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/4.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/5.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/5.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/5.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/6.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/6.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/7.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/7.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/8.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/8.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/9.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/9.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/10.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/10.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/11.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/11.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/12.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/12.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/13.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/13.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/14.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/14.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/15.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/15.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/6.jpg" alt="" /> */}
-                    <Image loading="lazy" src="/img/banner/16.jpg" alt="" className='bg-contain rounded-lg' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/16.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
             </Carousel>
         </div>
