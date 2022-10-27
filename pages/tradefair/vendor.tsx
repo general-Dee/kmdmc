@@ -27,8 +27,8 @@ function sponsours({}: Props) {
       setEmail("")
       setBusinessName("")
       setTypeOfTrade("")
-      setNumberOfStalls(1)
-      setReturningTraders(false)
+      setNumberOfStalls("")
+      setReturningTraders(null)
   }
 
     const handleSubmit = async (event: any) => {
@@ -47,10 +47,11 @@ function sponsours({}: Props) {
           setPhone(phone)
           setBusinessName(businessName)
           setTypeOfTrade(typeOfTrade)
+          setNumberOfStalls(numberOfStalls)
           setReturningTraders(returningTrader)
 
           const collectionRef = collection(db, "vendors")
-          const payLoad = { fullname, email, phone, businessName, typeOfTrade, returningTrader }
+          const payLoad = { fullname, email, phone, businessName, typeOfTrade, numberOfStalls, returningTrader }
           await addDoc(collectionRef, payLoad)
           toast.success("Registration Successful")
           clearForm()
@@ -96,7 +97,7 @@ function sponsours({}: Props) {
               </div>
               <div>
                   <label htmlFor="numberOfStalls" className='text-lg font-medium'>How many stalls do you require?</label>
-                  <input type="number" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/>
+                  <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/>
               </div>
               <div className='mt-5'>
                   <label htmlFor="returningTrader"> Returning Trader? </label>

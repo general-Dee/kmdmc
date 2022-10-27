@@ -1,7 +1,7 @@
 import { Auth, User } from 'firebase/auth'
 import { signOut } from 'firebase/auth'
 import { auth } from '../../firebase'
-import Tradefair_header from '../Tradefair_header'
+// import Tradefair_header from '../Tradefair_header'
 
 type Props = {
     user: User,
@@ -18,8 +18,9 @@ function home({
 
  
   return (
+    <></>
     // <div>This is the home component! and {user} is logged in</div>
-    <Tradefair_header />
+    // <Tradefair_header />
   )
 }
 

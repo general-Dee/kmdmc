@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import { useRecoilState } from "recoil"
 import { modalState } from "../atoms/Atom"
-import { logOut } from "../firebase"
+// import { logOut } from "../firebase"
 
 
 function Dash_header() {
@@ -19,7 +19,7 @@ function Dash_header() {
 // }
   const handleLogout = () => {
 
-    logOut()
+    // logOut()
 
     router.push("/login")
 
@@ -37,7 +37,7 @@ function Dash_header() {
           <li className="headerLink text-black hover:bg-slate-100" onClick={() => setOpen(true)}>Memo</li>
           <li className="headerLink text-black hover:bg-slate-100">Gallery</li>
           <li className="headerLink text-black hover:bg-slate-100" >Login</li>
-          <li className="headerLink text-black hover:bg-slate-100" onClick={handleLogout}>Logout</li>
+          {/* <li className="headerLink text-black hover:bg-slate-100" onClick={handleLogout}>Logout</li> */}
       </ul>
 </div> 
   )
