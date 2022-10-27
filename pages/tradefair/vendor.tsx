@@ -17,8 +17,8 @@ function sponsours({}: Props) {
     const [email, setEmail ] = useState("")
     const [businessName, setBusinessName] = useState("")
     const [typeOfTrade, setTypeOfTrade] = useState("")
-    const [numberOfStalls,  setNumberOfStalls ] = useState(1)
-    const [returningTrader,  setReturningTraders ] = useState(null)
+    const [numberOfStalls,  setNumberOfStalls ] = useState("")
+    const [returningTrader,  setReturningTraders ] = useState(false)
     const router = useRouter()
 
     const clearForm = () => {
@@ -28,7 +28,7 @@ function sponsours({}: Props) {
       setBusinessName("")
       setTypeOfTrade("")
       setNumberOfStalls("")
-      setReturningTraders(null)
+      setReturningTraders(false)
   }
 
     const handleSubmit = async (event: any) => {
@@ -98,12 +98,14 @@ function sponsours({}: Props) {
               <div>
                   <label htmlFor="numberOfStalls" className='text-lg font-medium'>How many stalls do you require?</label>
                   <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/>
+                  {/* <input type="text" onChange={({ target }) => setNumberOfStalls(target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/> */}
               </div>
               <div className='mt-5'>
                   <label htmlFor="returningTrader"> Returning Trader? </label>
                   <input type="checkbox" 
-                  onChange={(e) => setReturningTraders(e.target.checked)}
                   id="returningTrader" 
+                  checked={returningTrader}
+                  onChange={(e) => setReturningTraders(e.target.checked)}
                   className='cursor-pointer h-8 w-16 rounded-full appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
               </div>
               <div className='mt-8 flex flex-col gap-y-4'>
