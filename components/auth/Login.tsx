@@ -13,12 +13,14 @@ import { toast } from 'react-toastify'
 
 
 interface Props{
+    setUser: any
+    setAuthState: any
 }
 
 const Login = ({
   setUser,
   setAuthState
-}) => {
+}: Props) => {
 
     const [email, setEmail ] = useState("")
     const [password, setPassword ] = useState("")
@@ -36,9 +38,9 @@ const Login = ({
             })
         }
     }
+
   return (
-    <motion.div className=" " 
-    >
+    <motion.div className="">
       <Head>
         <title>Home &nbsp;|&nbsp; KMDMC</title>
         <link rel="icon" href="/logo.png" />
@@ -48,7 +50,7 @@ const Login = ({
           <div className='tradefair_container'>
                 <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
                 <div className='bg-white px-10 py-20 rounded-3xl border-2 border-gray-200'>
-            <h1 className='text-3xl font-semibold'>Kaduna Markets Traid fair</h1>
+            <h1 className='text-3xl font-semibold'>Kaduna Markets Tradefair</h1>
             <p className='font-medium text-lg text-gray-500 mt-4'>Welcome back! Please ender your details</p>
 
             <div className='mt-8'>
@@ -69,9 +71,8 @@ const Login = ({
                 </div>
                 <div className='mt-8 flex flex-col gap-y-4'>
                     <button 
-                    // onClick={handleLogin}
                     onClick={handleLogin}
-                    className='hover:scale-[1.01] active:scale-[.9] active:duration-75 ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-bold text-lg font-bold'>Sign in</button>
+                    className='hover:scale-[1.01] active:scale-[.98] active:duration-75 ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-bold text-lg font-bold'>Sign in</button>
                     <button className='flex border-2 p-3 rounded-3xl border-gray-100 items-center justify-center gap-2 hover:scale-[1.01] active:scale-[.98] active:duration-75 ease-in-out transition-all'>
                         <FaGoogle className="w-8 h-8"/>
                         Sign in with Google

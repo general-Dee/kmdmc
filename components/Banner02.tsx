@@ -6,7 +6,7 @@ function Banner02() {
 
     return (
         <div className='relative w-screen h-[20vh] md:h-[45vh] overflow-y-hidden'>
-            <div className='absolute w-full h-10 md:h-40 bg-gradient-to-t from-gray-50 to-transparent bottom-0 z-20' />
+            <div className='absolute w-full h-10 md:h-40 bg-gradient-to-t from-[#f1f5f9] to-transparent bottom-0 z-20' />
             <Carousel
                 autoPlay
                 infiniteLoop

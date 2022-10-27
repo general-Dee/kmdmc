@@ -19,6 +19,11 @@ module.exports = {
       // },
     },
   },
+  variants: {
+    extends: {
+      backgroundColor: ['checked'],
+    }
+  },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('tailwindcss-textshadow'),

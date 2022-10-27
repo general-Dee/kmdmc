@@ -8,9 +8,11 @@ import { motion } from 'framer-motion'
 import { FaGoogle } from 'react-icons/fa'
 import Auth_header from '../Auth_header'
 import { auth } from '../../firebase'
-import { createUserWithEmailAndPassword } from 'firebase/auth'
+import { createUserWithEmailAndPassword, User } from 'firebase/auth'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
+// import { PaystackPop } from '@paystack/inline-js'
+import { usePaystackPayment } from 'react-paystack'
 // import { useEffect, useState } from 'react'
 // import Footer from '../../components/Footer'
 
@@ -18,15 +20,21 @@ import { toast } from 'react-toastify'
 
 
 interface Props{
+  setAuthState: any,
+  setUser: User
+
 }
 
 const Register = ({
   setAuthState,
   setUser
-}) => {
+}: Props) => {
 
+  const [fullname, setFullname] = useState('')
+  const [phone, setPhone] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [amount, setAmount] = useState('')
 
   const onHandleSubmit = () => {
     if(email !== null && password !== null) {
@@ -37,6 +45,41 @@ const Register = ({
         setAuthState('home')
       }).catch((err) => console.log(err))
     }
+  }
+
+  // const payWithPaystack = (e) => {
+  //   e.preventDefault()
+  //   const paystack = new PaystackPop()
+  //   paystack.newTransaction({
+  //     key:"pk_test_ff388cace6d75fe3ced328d871659ca2fee6786f",
+  //     amount:amount,
+  //     email,
+  //     fullname
+  //   })
+  // }
+
+  const paystackConfig ={
+    reference: (new Date()).getTime().toString(),
+    email: email,
+    amount: amount * 100,
+    publicKey: "pk_test_ff388cace6d75fe3ced328d871659ca2fee6786f",
+  }
+
+  const initializePayment = usePaystackPayment(paystackConfig)
+
+  const onSuccess = async (reference) => {
+
+    // const res = await axiosInstance.post('/user/card-setting/verify',{
+    //   transactionId: reference?.trxref,
+    //   savings_plan: plan?.plan,
+    //   // user_id: user>.id,
+    // })
+    console.log("Success")
+    toast.success("Transaction successful")
+  }
+
+  const onClose = () => {
+    console.log("Closed!")
   }
 
   return (
@@ -57,11 +100,17 @@ const Register = ({
             <div className='mt-8'>
                 <div>
                     <label htmlFor="email" className='text-lg font-medium'>Full Name</label>
-                    <input type="text" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your Full Name'/>
+                    <input type="text" 
+                    value={fullname}
+                    onChange={(e) => setFullname(e.target.value)}
+                    className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your Full Name'/>
                 </div> 
                 <div>
                     <label htmlFor="email" className='text-lg font-medium'>Phone Number</label>
-                    <input type="text" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your Phone Number'/>
+                    <input type="text" 
+                     value={phone}
+                     onChange={(e) => setPhone(e.target.value)}
+                    className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your Phone Number'/>
                 </div> 
                 <div>
                     <label htmlFor="email" className='text-lg font-medium'>Email</label>
@@ -77,18 +126,30 @@ const Register = ({
                      onChange={(e) => setPassword(e.target.value)}
                     className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your password'/>
                 </div>
-                {/* <div className='mt-8 flex justify-between items-center'>
+                <div>
+                    <label htmlFor="email" className='text-lg font-medium'>Amount</label>
+                    <input type="text" 
+                     value={amount}
+                     onChange={(e) => setAmount(e.target.value)}
+                    className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How much would you like to donate?'/>
+                </div> 
+                <div className='mt-8 flex justify-between items-center'>
                     <div>
                         <input type="checkbox" id='remember'/>
                         <label htmlFor="remember" className='ml-2 font-medium text-base'>Remenber for 30 Days</label>
                     </div>
                     <button className='font-medium text-base text-violet-500'>Forgot Password</button>
-                </div> */}
+                </div>
                 <div className='mt-8 flex flex-col gap-y-4'>
-                    <button 
+                    {/* <button 
                     onClick={onHandleSubmit}
                     className='hover:scale-[1.01] active:scale-[.9] active:duration-75 ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-bold text-lg font-bold'>
                       Register
+                    </button> */}
+                    <button 
+                    onClick={() => initializePayment(onSuccess, onClose)}
+                    className='hover:scale-[1.01] active:scale-[.9] active:duration-75 ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-bold text-lg font-bold'>
+                      Donate
                     </button>
                     <button className='flex border-2 p-3 rounded-3xl border-gray-100 items-center justify-center gap-2 hover:scale-[1.01] active:scale-[.98] active:duration-75 ease-in-out transition-all'>
                         <FaGoogle className="w-8 h-8"/>

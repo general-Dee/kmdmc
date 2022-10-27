@@ -6,7 +6,7 @@
 @layer base{
     body{
         /* @apply bg-[#1f1f1f] ; */
-        @apply bg-gray-50 sm:overflow-x-hidden !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-900;
+        @apply bg-[#f1f5f9] sm:overflow-x-hidden !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-900;
     }
 
     header{
@@ -99,5 +99,14 @@
 
     .footer_body {
         @apply text-gray-200 text-sm 
+    }
+
+    #returningTrader::after {
+        content: '';
+        @apply h-7 w-7 rounded-full bg-violet-500 absolute left-0 top-0 transform scale-110 transition duration-200
+    }
+
+    #returningTrader:checked::after {
+        @apply transform scale-110 translate-x-8
     }
 }
