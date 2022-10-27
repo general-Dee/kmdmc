@@ -67,7 +67,7 @@ function sponsours({}: Props) {
     </Head>
     <Auth_header />
   
-        <div className='tradefair_container mt-14 md:mt-7'>
+        <div className='tradefair_container pt-14 md:pt-7'>
               <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
               <div className='bg-white px-10 py-20 rounded-3xl border-2 border-gray-200'>
           <h1 className='text-3xl font-semibold'>Kaduna Markets Tradefair</h1>

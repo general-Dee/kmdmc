@@ -18,7 +18,7 @@ function confirmation({}: Props) {
       </h1>
       <p className="mb-8 leading-relaxed">Kindly make a payment of N15,000 to the following account to secure your stall. Afterwards you are urged to send proof of payment to +234 810 317 9578 or +234 802 376 0999 to complete the process.</p>
       <p>Account Number: <b>1210217697</b></p>
-      <p>Account Name: <b>Kaduna Markets Develovment and Management Company</b></p>
+      <p>Account Name: <b>Kaduna Markets Development and Management Company</b></p>
       <p>Bank: <b>Zenith Bank</b></p>
 
       <div className="flex justify-center">
