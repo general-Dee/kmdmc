@@ -67,7 +67,7 @@ function sponsours({}: Props) {
     </Head>
     <Auth_header />
   
-        <div className='tradefair_container'>
+        <div className='tradefair_container mt-14 md:mt-7'>
               <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
               <div className='bg-white px-10 py-20 rounded-3xl border-2 border-gray-200'>
           <h1 className='text-3xl font-semibold'>Kaduna Markets Tradefair</h1>
@@ -77,11 +77,11 @@ function sponsours({}: Props) {
             <form onSubmit={handleSubmit} >
               <div>
                   <label htmlFor="fullname" className='text-lg font-medium'>Full Name</label>
-                  <input type="text"  onChange={(e) => setFullname(e.target.value)} value={fullname} id='fullname' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your email'/>
+                  <input type="text"  onChange={(e) => setFullname(e.target.value)} value={fullname} id='fullname' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your full name'/>
               </div> 
               <div>
                   <label htmlFor="phone" className='text-lg font-medium'>Phone Number</label>
-                  <input type="number"  onChange={(e) => setPhone(e.target.value)} value={phone} id='phone' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your email'/>
+                  <input type="number"  onChange={(e) => setPhone(e.target.value)} value={phone} id='phone' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your phone number'/>
               </div> 
               <div>
                   <label htmlFor="email" className='text-lg font-medium'>Email</label>
@@ -93,7 +93,7 @@ function sponsours({}: Props) {
               </div>
               <div>
                   <label htmlFor="typeOfTrade" className='text-lg font-medium'>Type of trade</label>
-                  <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your password'/>
+                  <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='What is your type of trade?'/>
               </div>
               <div>
                   <label htmlFor="numberOfStalls" className='text-lg font-medium'>How many stalls do you require?</label>

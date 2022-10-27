@@ -16,7 +16,7 @@ function confirmation({}: Props) {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Thank you for registering
             <br className="hidden lg:inline-block"/>
       </h1>
-      <p className="mb-8 leading-relaxed">Kindly make a payment of N15,000 to the following account to secure your stall. Afterwards you are urged to send proof of payment to our WhatsApp platform (If you are not included in the platfrom, please excercise patience as our team would include you in no time)</p>
+      <p className="mb-8 leading-relaxed">Kindly make a payment of N15,000 to the following account to secure your stall. Afterwards you are urged to send proof of payment to +234 810 317 9578 or +234 802 376 0999 to complete the process.</p>
       <p>Account Number: <b>1210217697</b></p>
       <p>Account Name: <b>Kaduna Markets Develovment and Management Company</b></p>
       <p>Bank: <b>Zenith Bank</b></p>
