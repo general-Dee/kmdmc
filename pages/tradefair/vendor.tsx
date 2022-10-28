@@ -63,15 +63,15 @@ function sponsours({}: Props) {
     <motion.div className="">
     <Head>
       <title>Home &nbsp;|&nbsp; KMDMC</title>
-      <link rel="icon" href="/logo.png" />
+      <link rel="icon" href="/tradefairLogo.png" />
     </Head>
     <Auth_header />
-  
-        <div className='tradefair_container pt-14 md:pt-7'>
+        <div className='h-20 md:hidden'/>
+        <div className='tradefair_container'>
               <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
-              <div className='bg-white px-10 py-20 rounded-3xl border-2 border-gray-200'>
-          <h1 className='text-3xl font-semibold'>Kaduna Markets Tradefair</h1>
-          <p className='font-medium text-lg text-gray-500 mt-4'>Welcome back! Please ender your details</p>
+              <div className='bg-white px-14 py-30 mt-20 h-screen rounded-3xl border-2 border-gray-200'>
+          <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1>
+          <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Please ender your details</p>
 
           <div className='mt-8'>
             <form onSubmit={handleSubmit} >
@@ -100,20 +100,21 @@ function sponsours({}: Props) {
                   <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/>
                   {/* <input type="text" onChange={({ target }) => setNumberOfStalls(target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/> */}
               </div>
-              <div className='mt-5'>
-                  <label htmlFor="returningTrader"> Returning Trader? </label>
+              <div className='mt-5 flex align-center '>
+                  <label htmlFor="returningTrader"> Are you a returning Trader? </label>
                   <input type="checkbox" 
                   id="returningTrader" 
                   checked={returningTrader}
                   onChange={(e) => setReturningTraders(e.target.checked)}
-                  className='cursor-pointer h-8 w-16 rounded-full appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
+                  className='cursor-pointer h-8 w-16 rounded-full ml-20 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
               </div>
               <div className='mt-8 flex flex-col gap-y-4'>
               <button 
                     // onChange={(e) => setReturningTraders(e.target.value)}
-                    className='text-white font-medium ml-2 bg-violet-500 px-4 py-6 rounded-full'>Register</button>
+                    className='text-white font-medium ml-2 bg-violet-500 px-4 py-6 rounded-full '>Register</button>
               </div> 
               </form>
+              <div className='h-20 md:hidden'/>
           </div>
       </div>
           </div>

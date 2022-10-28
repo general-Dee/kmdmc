@@ -47,7 +47,7 @@ function Tradefair_header({}: Props) {
               viewport= {{ once: true}}
             className="bg-white rounded-xl hover:bg-slate-400 transition duration-[.4s] sm:p-0">
               <Link href={"/"}>
-                <Image src="/logo.png" width={60} height={70} className="cursor-pointer sm:w-5 sm:h-5 "/>
+                <Image src="/tradefairLogo.png" width={200} height={70} className="cursor-pointer sm:w-5 sm:h-5 "/>
               </Link>
             </motion.div>
       </a>
