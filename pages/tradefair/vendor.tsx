@@ -114,7 +114,7 @@ function sponsours({}: Props) {
                     className='text-white font-medium ml-2 bg-violet-500 px-4 py-6 rounded-full '>Register</button>
               </div> 
               </form>
-              <div className='h-20 md:hidden'/>
+              {/* <div className='h-20 md:hidden'/> */}
           </div>
       </div>
           </div>
