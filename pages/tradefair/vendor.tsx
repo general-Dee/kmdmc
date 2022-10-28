@@ -106,7 +106,7 @@ function sponsours({}: Props) {
                   id="returningTrader" 
                   checked={returningTrader}
                   onChange={(e) => setReturningTraders(e.target.checked)}
-                  className='cursor-pointer h-5 w-[70px] md:h-8 md:w-16 rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
+                  className='cursor-pointer h-5 w-[45px] md:h-8 md:w-16 rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
               </div>
               <div className='mt-8 flex flex-col gap-y-4'>
               <button 

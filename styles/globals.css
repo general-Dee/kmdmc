@@ -111,7 +111,7 @@
     }
 
     .vendorFormInput {
-        @apply w-full border-2 border-gray-100 rounded-xl p-1 md:p-4 mt-2 outline-none bg-transparent
+        @apply w-full border-2 border-gray-100 rounded-xl p-1 md:p-4 mt-4 outline-none bg-transparent
     }
 
     .vendorFormLabel {
