@@ -69,35 +69,35 @@ function sponsours({}: Props) {
         <div className='h-20 md:hidden'/>
         <div className='tradefair_container'>
               <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
-              <div className='bg-white px-14 pt-30 pb-5 mt-20 h-screen rounded-3xl border-2 border-gray-200'>
-          <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1>
+              <div className='bg-white px-14 mt-20 h-screen rounded-3xl bottom-0 border-2 border-gray-200'>
+          {/* <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1> */}
           <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Please enter your details</p>
 
           <div className='mt-8'>
             <form onSubmit={handleSubmit} >
               <div>
-                  <label htmlFor="fullname" className='text-lg font-medium'>Full Name</label>
-                  <input type="text"  onChange={(e) => setFullname(e.target.value)} value={fullname} id='fullname' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your full name'/>
+                  <label htmlFor="fullname" className='vendorFormLabel'>Full Name</label>
+                  <input type="text"  onChange={(e) => setFullname(e.target.value)} value={fullname} id='fullname' className='vendorFormInput' placeholder='Enter your full name'/>
               </div> 
               <div>
-                  <label htmlFor="phone" className='text-lg font-medium'>Phone Number</label>
-                  <input type="number"  onChange={(e) => setPhone(e.target.value)} value={phone} id='phone' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your phone number'/>
+                  <label htmlFor="phone" className='vendorFormLabel'>Phone Number</label>
+                  <input type="number"  onChange={(e) => setPhone(e.target.value)} value={phone} id='phone' className='vendorFormInput' placeholder='Enter your phone number'/>
               </div> 
               <div>
-                  <label htmlFor="email" className='text-lg font-medium'>Email</label>
-                  <input type="email"  onChange={(e) => setEmail(e.target.value)} value={email} id='email' className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your email'/>
+                  <label htmlFor="email" className='vendorFormLabel'>Email</label>
+                  <input type="email"  onChange={(e) => setEmail(e.target.value)} value={email} id='email' className='vendorFormInput' placeholder='Enter your email'/>
               </div> 
               <div>
-                  <label htmlFor="password" className='text-lg font-medium'>Business Name</label>
-                  <input type="text" onChange={(e) => setBusinessName(e.target.value)} value={businessName} id="password" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='Enter your business name'/>
+                  <label htmlFor="password" className='vendorFormLabel'>Business Name</label>
+                  <input type="text" onChange={(e) => setBusinessName(e.target.value)} value={businessName} id="password" className='vendorFormInput' placeholder='Enter your business name'/>
               </div>
               <div>
-                  <label htmlFor="typeOfTrade" className='text-lg font-medium'>Type of trade</label>
-                  <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='What is your type of trade?'/>
+                  <label htmlFor="typeOfTrade" className='vendorFormLabel'>Type of trade</label>
+                  <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='vendorFormInput' placeholder='What is your type of trade?'/>
               </div>
               <div>
-                  <label htmlFor="numberOfStalls" className='text-lg font-medium'>How many stalls do you require?</label>
-                  <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/>
+                  <label htmlFor="numberOfStalls" className='vendorFormLabel'>How many stalls do you require?</label>
+                  <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='vendorFormInput' placeholder='How many stalls would you like?'/>
                   {/* <input type="text" onChange={({ target }) => setNumberOfStalls(target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/> */}
               </div>
               <div className='mt-5 flex align-center '>
@@ -106,12 +106,12 @@ function sponsours({}: Props) {
                   id="returningTrader" 
                   checked={returningTrader}
                   onChange={(e) => setReturningTraders(e.target.checked)}
-                  className='cursor-pointer h-8 w-16 rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
+                  className='cursor-pointer h-5 w-[70px] md:h-8 md:w-16 rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
               </div>
               <div className='mt-8 flex flex-col gap-y-4'>
               <button 
                     // onChange={(e) => setReturningTraders(e.target.value)}
-                    className='text-white font-medium ml-2 bg-violet-500 px-4 py-6 rounded-full '>Register</button>
+                    className='text-white font-medium ml-2 bg-violet-500 px-2 py-3 md:px-4 md:py-6 rounded-full '>Register</button>
               </div> 
               </form>
               <div className='h-20 md:hidden'/>
