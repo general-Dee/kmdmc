@@ -101,7 +101,7 @@ function sponsours({}: Props) {
                   {/* <input type="text" onChange={({ target }) => setNumberOfStalls(target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/> */}
               </div>
               <div className='mt-5 flex align-center '>
-                  <label htmlFor="returningTrader"> Are you a returning Trader? </label>
+                  <label htmlFor="returningTrader"> Are you a returning vendor? </label>
                   <input type="checkbox" 
                   id="returningTrader" 
                   checked={returningTrader}
