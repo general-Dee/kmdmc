@@ -71,7 +71,7 @@ function sponsours({}: Props) {
               <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
               <div className='bg-white px-14 py-30 mt-20 h-screen rounded-3xl border-2 border-gray-200'>
           <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1>
-          <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Please ender your details</p>
+          <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Please enter your details</p>
 
           <div className='mt-8'>
             <form onSubmit={handleSubmit} >
