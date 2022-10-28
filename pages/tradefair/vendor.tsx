@@ -69,7 +69,7 @@ function sponsours({}: Props) {
         <div className='h-20 md:hidden'/>
         <div className='tradefair_container'>
               <div className='w-full flex h-screen lg:w-1/2 bg-gray-100 items-center justify-center'>
-              <div className='bg-white px-14 py-30 mt-20 h-screen rounded-3xl border-2 border-gray-200'>
+              <div className='bg-white px-14 pt-30 pb-5 mt-20 h-screen rounded-3xl border-2 border-gray-200'>
           <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1>
           <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Please enter your details</p>
 
@@ -106,7 +106,7 @@ function sponsours({}: Props) {
                   id="returningTrader" 
                   checked={returningTrader}
                   onChange={(e) => setReturningTraders(e.target.checked)}
-                  className='cursor-pointer h-8 w-16 rounded-full ml-20 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
+                  className='cursor-pointer h-8 w-16 rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
               </div>
               <div className='mt-8 flex flex-col gap-y-4'>
               <button 
@@ -114,7 +114,7 @@ function sponsours({}: Props) {
                     className='text-white font-medium ml-2 bg-violet-500 px-4 py-6 rounded-full '>Register</button>
               </div> 
               </form>
-              {/* <div className='h-20 md:hidden'/> */}
+              <div className='h-20 md:hidden'/>
           </div>
       </div>
           </div>

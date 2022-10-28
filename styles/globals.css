@@ -107,6 +107,6 @@
     }
 
     #returningTrader:checked::after {
-        @apply transform scale-110 translate-x-8
+        @apply transform scale-110 translate-x-5
     }
 }
