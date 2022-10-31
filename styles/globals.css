@@ -103,18 +103,19 @@
 
     #returningTrader::after {
         content: '';
-        @apply h-4 w-4  md:h-7 md:w-7 rounded-full bg-violet-500 absolute left-0 top-0 transform scale-110 transition duration-200
+        @apply h-3 w-3 md:h-5 md:w-5 rounded-full bg-violet-500 absolute left-0 top-0 transform scale-110 transition duration-200
     }
 
     #returningTrader:checked::after {
-        @apply transform scale-110 translate-x-5
-    }
-
-    .vendorFormInput {
-        @apply w-full border-2 border-gray-100 rounded-xl p-1 md:p-4 mt-4 outline-none bg-transparent
+        @apply transform scale-110 translate-x-12 md:translate-x-6
     }
 
     .vendorFormLabel {
-        @apply  text-base lg:text-lg font-medium 
+        @apply text-[12px] md:text-sm lg:text-lg font-medium 
     }
+
+    .vendorFormInput {
+        @apply w-full border-2 border-gray-100 rounded-xl p-1 md:p-4 outline-none bg-transparent
+    }
+
 }

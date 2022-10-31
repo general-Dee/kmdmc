@@ -15,8 +15,11 @@ function sponsours({}: Props) {
     const [fullname, setFullname ] = useState("")
     const [phone, setPhone ] = useState("")
     const [email, setEmail ] = useState("")
+    const [age, setAge ] = useState("")
     const [businessName, setBusinessName] = useState("")
     const [typeOfTrade, setTypeOfTrade] = useState("")
+    const [recedency, setRecedency] = useState("")
+    const [occupation, setOccupation] = useState("")
     const [numberOfStalls,  setNumberOfStalls ] = useState("")
     const [returningTrader,  setReturningTraders ] = useState(false)
     const router = useRouter()
@@ -46,12 +49,14 @@ function sponsours({}: Props) {
           setEmail(email)
           setPhone(phone)
           setBusinessName(businessName)
+          setOccupation(occupation)
           setTypeOfTrade(typeOfTrade)
+          setRecedency(recedency)
           setNumberOfStalls(numberOfStalls)
           setReturningTraders(returningTrader)
 
           const collectionRef = collection(db, "vendors")
-          const payLoad = { fullname, email, phone, businessName, typeOfTrade, numberOfStalls, returningTrader }
+          const payLoad = {fullname, email, phone, businessName, typeOfTrade, recedency, occupation, numberOfStalls, returningTrader}
           await addDoc(collectionRef, payLoad)
           toast.success("Registration Successful")
           clearForm()
@@ -62,7 +67,7 @@ function sponsours({}: Props) {
   return (
     <motion.div className="">
     <Head>
-      <title>Home &nbsp;|&nbsp; KMDMC</title>
+      <title>Vendor Registration</title>
       <link rel="icon" href="/tradefairLogo.png" />
     </Head>
     <Auth_header />
@@ -96,29 +101,36 @@ function sponsours({}: Props) {
                   <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='vendorFormInput' placeholder='What is your type of trade?'/>
               </div>
               <div>
+                  <label htmlFor="occupation" className='vendorFormLabel'>Occupation</label>
+                  <input type="text" onChange={(e) => setOccupation(e.target.value)} value={occupation} id="occupation" className='vendorFormInput' placeholder='What is your occupation?'/>
+              </div>
+              <div>
+                  <label htmlFor="recedency" className='vendorFormLabel'>What is your state of recedency?</label>
+                  <input type="text" onChange={(e) => setRecedency(e.target.value)} value={recedency} id="numberOfStalls" className='vendorFormInput' placeholder='What is your state of recedency?'/>
+              </div>
+              <div>
                   <label htmlFor="numberOfStalls" className='vendorFormLabel'>How many stalls do you require?</label>
                   <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='vendorFormInput' placeholder='How many stalls would you like?'/>
-                  {/* <input type="text" onChange={({ target }) => setNumberOfStalls(target.value)} value={numberOfStalls} id="numberOfStalls" className='w-full border-2 border-gray-100 rounded-xl p-4 mt-1 outline-none bg-transparent' placeholder='How many stalls would you like?'/> */}
               </div>
               <div className='mt-5 flex align-center '>
-                  <label htmlFor="returningTrader"> Are you a returning vendor? </label>
+                  <label htmlFor="returningTrader" className='vendorFormLabel'>Returning vendor? </label>
                   <input type="checkbox" 
-                  id="returningTrader" 
-                  checked={returningTrader}
-                  onChange={(e) => setReturningTraders(e.target.checked)}
-                  className='cursor-pointer h-5 w-[45px] md:h-8 md:w-16 rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
+                    id="returningTrader" 
+                    checked={returningTrader}
+                    onChange={(e) => setReturningTraders(e.target.checked)}
+                    className='cursor-pointer h-4 w-[65px] md:h-6 md:w-[45px] rounded-full ml-12 appearance-none bg-gray-200 checked:bg-pink-300 bg-opacity-5 border-2 border-violet-700 transition duration-200 relative'/>
               </div>
               <div className='mt-8 flex flex-col gap-y-4'>
-              <button 
-                    // onChange={(e) => setReturningTraders(e.target.value)}
-                    className='text-white font-medium ml-2 bg-violet-500 px-2 py-3 md:px-4 md:py-6 rounded-full '>Register</button>
+                <button className='text-white font-medium ml-2 bg-violet-500 px-2 py-3 md:px-4 md:py-4 rounded-full'>
+                    Register
+                </button>
               </div> 
               </form>
-              <div className='h-20 md:hidden'/>
+              <div className='h-20'/>
           </div>
       </div>
           </div>
-          <div className='hidden relative lg:flex h-full w-1/2 items-center justify-center bg-gray-50'>
+          <div className='hidden relative lg:flex h-full w-1/2 items-center justify-center bg-gray-50 mt-12'>
               <Tradefair_annimation />
           </div>
     </div>
