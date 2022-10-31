@@ -4,7 +4,7 @@ import Auth_header from '../../components/Auth_header'
 import Head from 'next/head'
 import Tradefair_annimation from '../../components/Tradefair_annimation'
 import { toast } from 'react-toastify'
-import { addDoc, collection } from 'firebase/firestore'
+import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 import { db } from '../../firebase'
 import { useRouter } from 'next/router'
 
@@ -22,6 +22,7 @@ function sponsours({}: Props) {
     const [occupation, setOccupation] = useState("")
     const [numberOfStalls,  setNumberOfStalls ] = useState("")
     const [returningTrader,  setReturningTraders ] = useState(false)
+    const timeStamp = serverTimestamp()
     const router = useRouter()
 
     const clearForm = () => {
@@ -56,7 +57,7 @@ function sponsours({}: Props) {
           setReturningTraders(returningTrader)
 
           const collectionRef = collection(db, "vendors")
-          const payLoad = {fullname, email, phone, businessName, typeOfTrade, recedency, occupation, numberOfStalls, returningTrader}
+          const payLoad = {fullname, email, phone, businessName, typeOfTrade, recedency, occupation, numberOfStalls, returningTrader, timeStamp}
           await addDoc(collectionRef, payLoad)
           toast.success("Registration Successful")
           clearForm()
