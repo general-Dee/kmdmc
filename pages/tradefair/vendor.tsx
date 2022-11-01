@@ -99,19 +99,19 @@ function sponsours({}: Props) {
               </div>
               <div>
                   <label htmlFor="typeOfTrade" className='vendorFormLabel'>Type of trade</label>
-                  <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='vendorFormInput' placeholder='What is your type of trade?'/>
+                  <input type="text" onChange={(e) => setTypeOfTrade(e.target.value)} value={typeOfTrade} id="typeOfTrade" className='vendorFormInput' placeholder='Enter type of trade'/>
               </div>
               <div>
                   <label htmlFor="occupation" className='vendorFormLabel'>Occupation</label>
-                  <input type="text" onChange={(e) => setOccupation(e.target.value)} value={occupation} id="occupation" className='vendorFormInput' placeholder='What is your occupation?'/>
+                  <input type="text" onChange={(e) => setOccupation(e.target.value)} value={occupation} id="occupation" className='vendorFormInput' placeholder='Enter occupation'/>
               </div>
               <div>
                   <label htmlFor="recedency" className='vendorFormLabel'>Where is your state of recedency?</label>
-                  <input type="text" onChange={(e) => setRecedency(e.target.value)} value={recedency} id="numberOfStalls" className='vendorFormInput' placeholder='What is your state of recedency?'/>
+                  <input type="text" onChange={(e) => setRecedency(e.target.value)} value={recedency} id="numberOfStalls" className='vendorFormInput' placeholder='Enter state of recedency?'/>
               </div>
               <div>
                   <label htmlFor="numberOfStalls" className='vendorFormLabel'>How many stalls do you require?</label>
-                  <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='vendorFormInput' placeholder='How many stalls would you like?'/>
+                  <input type="text" onChange={(e) => setNumberOfStalls(e.target.value)} value={numberOfStalls} id="numberOfStalls" className='vendorFormInput' placeholder='Enter number of stalls required'/>
               </div>
               <div className='mt-5 flex align-center '>
                   <label htmlFor="returningTrader" className='vendorFormLabel'>Returning vendor? </label>
