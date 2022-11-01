@@ -107,7 +107,7 @@ function sponsours({}: Props) {
               </div>
               <div>
                   <label htmlFor="recedency" className='vendorFormLabel'>Where is your state of recedency?</label>
-                  <input type="text" onChange={(e) => setRecedency(e.target.value)} value={recedency} id="numberOfStalls" className='vendorFormInput' placeholder='Enter state of recedency?'/>
+                  <input type="text" onChange={(e) => setRecedency(e.target.value)} value={recedency} id="numberOfStalls" className='vendorFormInput' placeholder='Enter state of recedency'/>
               </div>
               <div>
                   <label htmlFor="numberOfStalls" className='vendorFormLabel'>How many stalls do you require?</label>
