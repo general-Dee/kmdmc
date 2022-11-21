@@ -42,7 +42,7 @@ function sponsours({}: Props) {
 
     //   console.log(fullname, email,phone, businessName, typeOfTrade, numberOfStalls, returningTrader)
 
-      if (fullname == "" || email == "" || phone == "" || age == "" || residency == "" || businessName == "" ||  typeOfTrade == "" ) {
+      if (fullname == "" || email == "" || phone == "" || age == "" || residency == "" || occupation == "" || businessName == "" ||  typeOfTrade == "" ) {
           clearForm()
           toast.error("All fields are required!")
 

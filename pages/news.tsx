@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import NewHead from '../components/NewHead'
 import { motion } from 'framer-motion'
 
+
 function news() {
   return (
     <>
