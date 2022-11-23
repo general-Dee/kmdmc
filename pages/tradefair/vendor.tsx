@@ -80,9 +80,9 @@ function sponsours({}: Props) {
             <div className='w-full flex h-screen lg:w-1/2 bg-gray-200 items-center justify-center'>
               <div className='bg-gray-50 px-14 mt-20 h-screen rounded-3xl bottom-0 border-2 border-gray-200'>
                 {/* <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1> */}
-                    <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Please enter your details</p>
+                    <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Sorry registration has closed. You can join us at our next Tradefair</p>
 
-                    <div className='mt-8'>
+                    {/* <div className='mt-8'>
                         <form onSubmit={handleSubmit} >
                         <div>
                             <label htmlFor="fullname" className='vendorFormLabel'>Full Name</label>
@@ -134,7 +134,8 @@ function sponsours({}: Props) {
                             </button>
                         </div> 
                         </form>
-                    </div>
+                    </div> */}
+
                 <div className='h-20 lg:hidden'/>
             </div>
         </div>
