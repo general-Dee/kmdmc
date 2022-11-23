@@ -80,8 +80,14 @@ function sponsours({}: Props) {
             <div className='w-full flex h-screen lg:w-1/2 bg-gray-200 items-center justify-center'>
               <div className='bg-gray-50 px-14 mt-20 h-screen rounded-3xl bottom-0 border-2 border-gray-200'>
                 {/* <h1 className='text-3xl font-semibold mt-12'>Kaduna Markets Tradefair</h1> */}
-                    <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Sorry registration has closed. You can join us at our next Tradefair</p>
+                    <p className='font-medium text-lg text-gray-500 mt-4'>Welcome! Sorry registration has closed. You can join us at our next Tradefair. Thank you and see you soon</p>
 
+
+                    <div className="flex justify-center my-10">
+                        <button 
+                        onClick={()=> router.push('/')}
+                        className="inline-flex text-white bg-indigo-500 mt-3 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">KMDMC Home</button>
+                    </div>
                     {/* <div className='mt-8'>
                         <form onSubmit={handleSubmit} >
                         <div>
