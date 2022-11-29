@@ -16,7 +16,7 @@ function Banner02() {
                 interval={5000}
             >
                 <div className=''>
-                    <Image loading="lazy" src="/img/banner/1.jpg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
+                    <Image loading="lazy" src="/img/banner/1.jpeg" alt="" className='bg-contain' objectFit='fill' width={1900} height={700} />
                 </div>
                 <div>
                     {/* <img loading="lazy" src="/img/banner/2.jpg" alt="" /> */}

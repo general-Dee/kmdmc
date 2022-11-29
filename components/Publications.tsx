@@ -19,6 +19,32 @@ function Publications({}: Props) {
   <div className="container px-5 py-24 mx-auto">
     <h1 className='text-2xl my-10  lg:my-20 text-center font-black tracking-[4px] lg:text-5xl lg:tracking-[8px] font-serif'>Official Publications</h1>
     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+    <motion.div 
+        initial= {{
+        x: -80,
+        opacity: 0
+         }}
+        transition= {{duration: 1}}
+        whileInView= {{ opacity: 1, x: 0}}
+        viewport= {{ once: true}}
+      className="sm:w-1/2 mb-10 px-4">
+        <div className="rounded-lg h-64 overflow-hidden">
+        <img alt="content" className="object-cover object-center h-full w-full" src="/tumb/brouchure.PNG"/>
+        </div>
+        <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">KMDMC Tradefair 3.0 Brochure</h2>
+        <p className="leading-relaxed text-base">The fair is a bi-annual event organized by the Kaduna Markets
+Development and Management Company (KMDMC) to provide a
+platform for Micro, Small and Medium Enterprises (MSME's) within Kaduna State to showcase and promote their goods and services to residents.</p>
+        <a 
+          href="files/tradefair.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex mx-auto mt-6 w-40 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+            Download PDF
+        </a>
+        {/* <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button> */}
+      </motion.div>
+
       <motion.div 
         initial= {{
         x: -80,
@@ -34,7 +60,7 @@ function Publications({}: Props) {
         <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">KMDMC Mid-Year 2020 Report</h2>
         <p className="leading-relaxed text-base">This document provide details about the different ongoing projects as at mid-2020 under the outlines; Leasure and Recreation, Markets, Neighbourhood Centres, Facility Upgrades and other projects including the Sale of Shops at Sheikh Abubakar Gumi Market and the Damau Household Milk farm Project.</p>
         <a 
-          href="files/MidYearReport.pdf"
+          href="files/TradefairBrochure.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex mx-auto mt-6 w-40 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
