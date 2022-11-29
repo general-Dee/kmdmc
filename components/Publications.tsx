@@ -31,7 +31,7 @@ function Publications({}: Props) {
         <div className="rounded-lg h-64 overflow-hidden">
         <img alt="content" className="object-cover object-center h-full w-full" src="/tumb/brouchure.PNG"/>
         </div>
-        <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">KMDMC Tradefair 3.0 Brochure</h2>
+        <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">KMDMC Tradefair 2.0 Brochure</h2>
         <p className="leading-relaxed text-base">The fair is a bi-annual event organized by the Kaduna Markets
 Development and Management Company (KMDMC) to provide a
 platform for Micro, Small and Medium Enterprises (MSME's) within Kaduna State to showcase and promote their goods and services to residents.</p>
