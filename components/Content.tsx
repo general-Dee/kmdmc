@@ -30,7 +30,7 @@ function Content() {
                             <Image width={720} height={400} className="h-40 rounded w-fulChikun LGAGl object-cover object-center mb-6" src="/img/galaxymall/2.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Galaxy Mall</h2>
-                            <p className="leading-relaxed text-base">Newly constructed mall containing 3 cinemas, 6 restaurants. 48-line shops with over 360 nos.</p>
+                            <p className="leading-relaxed text-base">Newly constructed mall containing 3 cinemas, 6 restaurants. 48-line shop with parking facilities </p>
                             </div>
                         </motion.div> 
                     </Link>
@@ -47,8 +47,8 @@ function Content() {
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                             <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/olarm/7.jpg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Chikun LGA</h3>
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farms Trailer Park and Grains Market</h2>
-                            <p className="leading-relaxed text-base">Parking Bays for 120 trailers, Grains Market, Travelers Inn, Food Court, Warehouses and Mechanic Workshops.</p>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Olam Farms Trailer Park and Grain Market</h2>
+                            <p className="leading-relaxed text-base">Parking Bays for 120 trailers, Grain Market, Travelers Inn, Food Court, Warehouses and Mechanic Workshops.</p>
                             </div>
                         </motion.div>
                     </Link>
@@ -83,8 +83,8 @@ function Content() {
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
                                 <Image width={720} height={400} className="h-40 rounded w-full object-cover object-center mb-6" src="/img/ugwanrimi/1.jpg" alt="content"/>
                                 <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
-                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Ugwanrimi Market</h2>
-                                <p className="leading-relaxed text-base">Commercial hub that is in line with KDSG's urban renewal agenda. It contains 1340 shops of different sqm sizes, warehouses, restrooms and car parking space.</p>
+                                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Ungwan Rimi Market</h2>
+                                <p className="leading-relaxed text-base">Commercial hub that is in line with KDSG's urban renewal agenda. It contains 1340 shops of different square meter sizes, warehouses, restrooms and car parking space.</p>
                             </div>
                         </motion.div>
                     </Link>
