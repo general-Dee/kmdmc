@@ -35,7 +35,37 @@ function news() {
           viewport= {{ once: true}}
         className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-gray-700">MD / CEO's Speech</span>
+                <span className="font-semibold title-font text-gray-700">New</span>
+                <span className="mt-1 text-gray-500 text-sm">26th December 2022</span>
+              </div>
+              <div className="md:flex-grow h-40 overflow-y-scroll !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-gray-600">
+                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Managing Director/CEO: Tamar Nandul’s Speech</h2>
+                <p className="leading-relaxed ">Distinguished Senator and incoming Gov of Kaduna State, Senator Uba Sani, the administrator, KCTA, Mallam Muhammed Hafiz Bayero, local Government chairmen of kaduna north and south, State Parliamentarians, exco of the All Progressives Congress, chairman of the Kaduna State Traders Unions, representative of the Iyaloja general, Chairmen of Market Unions and Associations across the State, traders across our markets, members of the press, ladies and gentlemen. 
+
+I want to first use the opportunity to thank each and everyone of you for being here today, we are grateful. We are also grateful for your support for His Excellency, Gov Nasir Ahmad Elrufai’s reforms and  activities in your markets, we will continue to work towards bringing solutions to the issues in our markets and most especially, our financial empowerment efforts through the sale of shops program. 
+
+We are grateful to our chairman Alh. Abdulrahman for the initiative to consolidate the activities of unions across our markets under the kaduna State Traders Union. And taking it further by establishing this support group to ensure continuity is secured at the state and federal levels through their support for  Distunguised Senator Uba Sani and Her Excellency, Dr. Hadiza Sabuwa Balarabe and our federal flag bearers, Asiwaju Bola Ahmed Tinubu and His Excellency, Sen. Kashim Shettima. 
+
+Just last week, His Excellency, Gov Nasir Ahmad Elrufai presented deeds of sublease to traders in sheikh Gumi and Kawo markets. This government has supported you to own your shops, to secure mortgage finance that allows you pay only 10% for your shops and pay back over seven years. 
+
+We have briefed Our incoming governor, Sen Uba Sani about all our activities and he is committed to continuity and improving on what we have started. Distinguised Sen Uba Sani is also helping us follow up on applications for our traders who attended kaduna Business school and applied for the Agric, small and medium enterprise projects gram (agsmeis) under Nirsal. 
+
+I also want to deliver the message of the traders so allow me to use this opportunity to address you , distinguished senator, our traders have gone through a lot due to the Covid pandemic and rising inflation. Some of the traders can’t afford their down payments. His Excellency, Gov Elrufai has supported us by giving us access to the kaduna state women’s entrepreneurship fund, Kadswef. we got 40m from the fund. We have disbursed 8m for female traders and have secured ownership of shops worth 80m. But men are complaining, they said i’m partial to women which is true but all the same, we would be grateful for your support to lunch a fund that we can disburse to traders based on need to be able to own their shops. 
+
+Finally, I want to assure the traders that we have noted their support and we will not let them down. We will continue to ensure fairness and transparency. We also look forward to partnering with you towards a successful and peaceful campaign and election, by God’s grace. </p>
+              </div>
+            </motion.div>
+        <motion.div 
+        initial= {{
+          y: 80,
+          opacity: 0
+          }}
+          transition= {{duration: 1}}
+          whileInView= {{ opacity: 1, y: 0}}
+          viewport= {{ once: true}}
+        className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-gray-700">Presentation of Mortgage</span>
                 <span className="mt-1 text-gray-500 text-sm">17th September 2022</span>
               </div>
               <div className="md:flex-grow h-40 overflow-y-scroll !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-gray-600">
