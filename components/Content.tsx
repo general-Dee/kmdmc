@@ -27,7 +27,7 @@ function Content() {
                         viewport= {{ once: true}} 
                         className="xl:w-1/4 md:w-1/2 p-4 ">
                             <div className="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-lg">
-                            <Image width={720} height={400} className="h-40 rounded w-fulChikun LGAGl object-cover object-center mb-6" src="/img/galaxymall/2.jpg" alt="content"/>
+                            <Image width={720} height={400} className="h-40 rounded w-fulChikun LGAGl object-cover object-center mb-6" src="/img/galaxymall/2.jpeg" alt="content"/>
                             <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font mt-4">Kaduna North LGA</h3>
                             <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Galaxy Mall</h2>
                             <p className="leading-relaxed text-base">Newly constructed mall containing 3 cinemas, 6 restaurants. 48-line shop with parking facilities </p>
