@@ -17,24 +17,24 @@ function olarm() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/7.jpg" />
+                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/25 .jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/8.jpg" />
+                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/26.jpg" />
               </div>
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/9.jpg" />
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/27.jpg" />
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/10.jpg" />
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/28.jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/11.jpg" />
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/29.jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/16.jpg" />
+                <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/30.jpg" />
               </div>
             </div>
           </div>
@@ -50,21 +50,21 @@ function olarm() {
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/1.jpg" />
+                <Image width={500} height={300} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/31.jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/2.jpg" />
+                <Image width={501} height={301} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/32.jpg" />
               </div>
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/3.jpg" />
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/33.jpg" />
               </div>
             </div>
             <div className="flex flex-wrap w-1/2">
               <div className="md:p-2 p-1 w-full">
-                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/4.jpg" />
+                <Image width={800} height={390} alt="gallery" className="w-full h-full object-cover object-center block" src="/img/olarm/34.jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
-                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/5.jpg" />
+                <Image width={502} height={302} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/35.jpg" />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <Image width={503} height={303} alt="gallery" className="w-full object-cover h-full object-center block" src="/img/olarm/6.jpg" />
