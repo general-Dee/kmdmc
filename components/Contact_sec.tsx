@@ -66,7 +66,7 @@ function Contact_sec() {
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
                     <a className="text-indigo-500 leading-relaxed">kaduna.markets@kdsg.gov.ng</a>
                     <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                    <p className="leading-relaxed">+234 903 787 3878</p>
+                    <p className="leading-relaxed">+234 701 164 0933</p>
                     </div>
                 </div>
             </motion.div>
