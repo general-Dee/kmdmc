@@ -50,7 +50,7 @@ function Footer() {
                     </li>
                     <li>
                         {/* <Link href={"/ungwanrimi"}> */}
-                            <a className="footer_body">&bull;  Unguwan Rimi Market Doka</a>
+                            <a className="footer_body">&bull;  Unguwar Rimi Market</a>
                         {/* </Link> */}
                     </li>
                     <li>

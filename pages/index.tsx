@@ -15,6 +15,7 @@ import Selling_points from '../components/Selling_points'
 import Video from '../components/Video'
 import NewHead from '../components/NewHead'
 import Banner02 from '../components/Banner02'
+import commoditiesData from '../public/commodities.json';
 // import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
@@ -59,6 +60,18 @@ const Home = () => {
     </motion.div>
   )
 }
+
+export async function getStaticProps() {
+  const commodities = commoditiesData.commodities;
+  return {
+    props: { commodities }
+  };
+}
+
+function CommodityPage({ commodities }: any) {
+  // Render the commodities here
+}
+
 
 export default Home
 
