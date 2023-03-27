@@ -40,7 +40,7 @@ function Footer() {
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="footer_body">&bull;  Markets and Trailer Park at Olam</a>
+                            <a className="footer_body">&bull;  Trailer Park and grains market at Olam</a>
                         {/* </Link> */}
                     </li>
                     <li>
@@ -145,7 +145,7 @@ function Footer() {
                         <li>
                             <a className="footer_body ">
                                 <PhoneIcon className='w-5 h-5 mx-auto text-yellow-300 animate-pulse'/>
-                                +234 903 787 3878
+                                +234 701 164 0933
                             </a>
                         </li>
                         <li>
