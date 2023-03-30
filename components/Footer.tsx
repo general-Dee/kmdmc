@@ -45,7 +45,7 @@ function Footer() {
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="footer_body">&bull;  Kawo Modern Market Kawo</a>
+                            <a className="footer_body">&bull;  Kawo Modern Market</a>
                         {/* </Link> */}
                     </li>
                     <li>

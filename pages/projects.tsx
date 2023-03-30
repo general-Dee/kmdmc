@@ -57,7 +57,7 @@ function projects() {
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                         <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Galaxy Mall</h1>
-                        <p className="leading-relaxed">A mall consisting of 3 cinemas, 6 restaurants. 48 line shops with over 360 nos. With approximatly 8,834 square meters of gross lettable area.</p>
+                        <p className="leading-relaxed">A mall consisting of 3 cinemas, 6 restaurants. 48 line shops. With approximatly 8,834 square meters of gross lettable area.</p>
                     </div>
                     </div>
                 </motion.div>
@@ -161,7 +161,7 @@ function projects() {
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Cold room</h1>
-                  <p className="leading-relaxed">Construction of 208nr shops, 126nr market stalls and parking lots.</p>
+                  <p className="leading-relaxed">Construction of 208 shops, 126 market stalls and parking lots.</p>
                 </div>
               </div>
             </motion.div>
@@ -203,7 +203,7 @@ function projects() {
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA SOUTH LGA</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Sabon Gari Market</h1>
-                  <p className="leading-relaxed">Construction of 3338nr shops, open market stalls, warehouses and parking lots. Phased construction.</p>
+                  <p className="leading-relaxed">Construction of 3338 shops, open market stalls, warehouses and parking lots. Phased construction.</p>
                 </div>
               </div>
             </motion.div>
@@ -224,7 +224,7 @@ function projects() {
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA SOUTH LGA</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Barnawa Modern Market</h1>
-                  <p className="leading-relaxed">Construction of 208nr shops, 126nr market stalls and parking lots. </p>
+                  <p className="leading-relaxed">Construction of 208 shops, 126 market stalls and parking lots. </p>
                 </div>
               </div>
             </motion.div>
@@ -245,13 +245,13 @@ function projects() {
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Kawo Market</h1>
-                  <p className="leading-relaxed">Construction of 2700nr shops, open market stalls, warehouses and parking lots.</p>
+                  <p className="leading-relaxed">Construction of 2700 shops, open market stalls, warehouses and parking lots.</p>
                 </div>
               </div>
             </motion.div>
             </Link>
 
-          <Link href={"/projects/gsmvillage"}>
+          <Link href={"/projects/kabala"}>
             <motion.div 
             initial= {{
               opacity: 0,
@@ -265,12 +265,145 @@ function projects() {
                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/gsmvillage/1.jpg"/>
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">740 (former GSM village)</h1>
-                  <p className="leading-relaxed">Construction of 3338nr shops, open market stalls, warehouses and parking lots. Phased construction.</p>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Kabala Market</h1>
+                  <p className="leading-relaxed">Construction of mordern market</p>
                 </div>
               </div>
             </motion.div>
             </Link>
+
+            
+          <Link href={"/projects/kwoi"}>
+            <motion.div 
+            initial= {{
+              opacity: 0,
+              scale: 0
+             }}
+            transition= {{duration: .16}}
+            whileInView= {{ opacity: 1, scale: 1 }}
+            viewport= {{ once: true}}
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kwoi/1.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Kwoi Market</h1>
+                  <p className="leading-relaxed">Construction of mordern market</p>
+                </div>
+              </div>
+            </motion.div>
+            </Link>
+
+            
+          <Link href={"/projects/69"}>
+            <motion.div 
+            initial= {{
+              opacity: 0,
+              scale: 0
+             }}
+            transition= {{duration: .16}}
+            whileInView= {{ opacity: 1, scale: 1 }}
+            viewport= {{ once: true}}
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/69/1.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shops 69</h1>
+                  <p className="leading-relaxed">Construction of shopping plaza.</p>
+                </div>
+              </div>
+            </motion.div>
+            </Link>
+
+            
+          <Link href={"/projects/54&56"}>
+            <motion.div 
+            initial= {{
+              opacity: 0,
+              scale: 0
+             }}
+            transition= {{duration: .16}}
+            whileInView= {{ opacity: 1, scale: 1 }}
+            viewport= {{ once: true}}
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/54&56/1.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shops 54 & 56 Complex</h1>
+                  <p className="leading-relaxed">Construction of shopping plaza.</p>
+                </div>
+              </div>
+            </motion.div>
+            </Link>
+
+            
+          <Link href={"/projects/kafanchan"}>
+            <motion.div 
+            initial= {{
+              opacity: 0,
+              scale: 0
+             }}
+            transition= {{duration: .16}}
+            whileInView= {{ opacity: 1, scale: 1 }}
+            viewport= {{ once: true}}
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kafanchan/1.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">JEMA'A LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Kafanchan Market</h1>
+                  <p className="leading-relaxed">Development of mordern market</p>
+                </div>
+              </div>
+            </motion.div>
+            </Link>
+
+            
+          <Link href={"/projects/kabala"}>
+            <motion.div 
+            initial= {{
+              opacity: 0,
+              scale: 0
+             }}
+            transition= {{duration: .16}}
+            whileInView= {{ opacity: 1, scale: 1 }}
+            viewport= {{ once: true}}
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/kabala/1.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">KADUNA NORTH LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Kabala Market</h1>
+                  <p className="leading-relaxed">Construction of modern market</p>
+                </div>
+              </div>
+            </motion.div>
+            </Link>
+
+
+          <Link href={"/projects/jere"}>
+            <motion.div 
+            initial= {{
+              opacity: 0,
+              scale: 0
+             }}
+            transition= {{duration: .16}}
+            whileInView= {{ opacity: 1, scale: 1 }}
+            viewport= {{ once: true}}
+            className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="/img/jere/4.jpg"/>
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Jere LGA</h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Jere Market</h1>
+                  <p className="leading-relaxed">Trailer park and mordern market development</p>
+                </div>
+              </div>
+            </motion.div>
+            </Link>
+
           
           </div>
         </motion.div>

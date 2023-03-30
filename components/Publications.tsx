@@ -19,6 +19,33 @@ function Publications({}: Props) {
   <div className="container px-5 py-24 mx-auto">
     <h1 className='text-2xl my-10  lg:my-20 text-center font-black tracking-[4px] lg:text-5xl lg:tracking-[8px] font-serif'>Official Publications</h1>
     <div className="flex flex-wrap -mx-4 -mb-10 text-center">
+
+
+    <motion.div 
+        initial= {{
+        x: -80,
+        opacity: 0
+         }}
+        transition= {{duration: 1}}
+        whileInView= {{ opacity: 1, x: 0}}
+        viewport= {{ once: true}}
+      className="sm:w-1/2 mb-10 px-4">
+        <div className="rounded-lg h-64 overflow-hidden">
+        <img alt="content" className="object-cover object-center h-full w-full" src="/report.PNG"/>
+        </div>
+        <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">KMDMC 2022 Annual report</h2>
+        <p className="leading-relaxed text-base">This report contains a comprehensive summary of Kaduna Markets Developement and Management Company and it's activities as well as achievements on the year 2022.</p>
+        <a 
+          href="files/Annual-Report.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex mx-auto mt-6 w-40 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
+            Download PDF
+        </a>
+        {/* <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Button</button> */}
+      </motion.div>
+
+
     <motion.div 
         initial= {{
         x: -80,
