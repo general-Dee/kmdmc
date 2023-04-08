@@ -51,7 +51,7 @@ function About() {
                             </div>
                         </div>
                         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                            <p className="leading-relaxed text-lg mb-4">We are currently managing over thirty(30) projects across the state, eight (8) of which are state owned and twenty (24) are Public Private Partnership. These projects cut across Commercial, Recreation and Hospitality.
+                            <p className="leading-relaxed text-lg mb-4">We are currently managing over thirty(30) projects across the state, eight (8) of which are state owned and twenty (22) are Public Private Partnership. These projects cut across Commercial, Recreation and Hospitality.
 
                                 We are profoundly committed to putting the State as the top destination for Business, Leisure and Recreation in line with the Urban Renewal Agenda of His Excellency.
 

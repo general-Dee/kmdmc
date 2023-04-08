@@ -16,6 +16,7 @@ import Video from '../components/Video'
 import NewHead from '../components/NewHead'
 import Banner02 from '../components/Banner02'
 import commoditiesData from '../public/commodities.json';
+import { getStorage, ref, listAll } from "firebase/storage";
 // import 'materialize-css/dist/css/materialize.min.css'
 
 // export const config = {
@@ -74,14 +75,3 @@ function CommodityPage({ commodities }: any) {
 
 
 export default Home
-
-// export async function getServerSideProps(context) {
-//   // get the user
-//   const session = await getSession(context);
-
-//   return {
-//     props: {
-//       session
-//     }
-//   }
-// }

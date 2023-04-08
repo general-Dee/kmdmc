@@ -40,7 +40,7 @@ function Footer() {
                     </li>
                     <li>
                         {/* <Link href={"/olarm"}> */}
-                            <a className="footer_body">&bull;  Trailer Park and grains market at Olam</a>
+                            <a className="footer_body">&bull;  Trailer Park and Grains Market at Olam</a>
                         {/* </Link> */}
                     </li>
                     <li>
@@ -101,10 +101,6 @@ function Footer() {
                     </li>
                     <li>
                         <a className="footer_body">&bull;  Millennium City Market</a>
-                    </li>
-                    
-                    <li>
-                        <a className="footer_body">&bull;  Malali Neighborhood Centre</a>
                     </li>
                     <li>
                         <a className="footer_body">&bull;  Kawo Market</a>
