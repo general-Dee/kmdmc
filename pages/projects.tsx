@@ -18,7 +18,7 @@ function projects() {
                 <h1 className="text-3xl font-bold tracking-[8px] uppercase mb-4 text-gray-600">KMDMC Projects</h1>
                 {/* <h3 className='font-semibold tracking-[3px] uppercase text-gray-900 mb-5'>Hover project images to view details</h3> */}
                 <hr className='bg-gray-700'/>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 21 Public Private Partnership projects and 8 state funded projects gibing a total of 29 projects under the supervision of the company across Kaduna and over N33 billion in assets in 2022. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3">KMDMC has continued to show its capacity to be the foremost facilitator in commercial real estate development and management in Kaduna. From no capital project in 2019 to 30 projects across Kaduna and over $71 million in assets in 2023. We have diversified the company's overreliance on Sheik Abubakar Mahmud Gumi market by building more modern markets in Kaduna with combined lettable space for over 10,000 residents.</p>
               </div>
             <div className="flex flex-wrap -m-4">
 
