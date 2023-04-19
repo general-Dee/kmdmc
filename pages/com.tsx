@@ -153,13 +153,13 @@ const CommodityTable: React.FC = () => {
     setActiveCategory(category === activeCategory ? "" : category);
   };
 
-  const dataSource: { key: string; name: string; price: number; category: string }[] = data.flatMap(
-    (item) =>
-      item.crops.map((crop) => ({
-        ...crop,
-        category: item.category,
-      }))
-  );
+  // const dataSource: { key: string; name: string; price: number; category: string }[] = data.flatMap(
+  //   (item) =>
+  //     item.crops.map((crop) => ({
+  //       ...crop,
+  //       category: item.category,
+  //     }))
+  // );
 
   const categories = Array.from(new Set(data.map((item) => item.category)));
 
